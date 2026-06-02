@@ -83,11 +83,6 @@
       <div class="premium-card p-5 text-center"><p class="text-xs font-bold uppercase tracking-wider text-blue-200">Disponibilidad Cámaras</p><div id="kpi-cam-dispo" class="text-4xl font-black mt-2">- %</div></div>
     </section>
 
-    <section class="premium-card p-5 no-print">
-      <h2 class="text-sm font-black uppercase tracking-wider mb-3"><i class="fa-solid fa-chart-pie text-blue-300 mr-2"></i>Balance de Infraestructura</h2>
-      <div class="h-28"><canvas id="graficoComparativo"></canvas></div>
-    </section>
-
     <section class="flex flex-col lg:flex-row gap-3 items-center justify-between no-print">
       <div class="flex flex-wrap bg-slate-900 p-1 rounded-lg border border-slate-700 gap-1 text-xs font-bold w-full lg:w-auto">
         <button onclick="setFiltro('todos')" id="btn-todos" class="px-4 py-2 rounded bg-slate-600 text-white flex-1">Dispositivos</button>
@@ -229,7 +224,9 @@
   }
 
   function renderGrafico(online, offline, grabFalla) {
-    const ctx = document.getElementById('graficoComparativo').getContext('2d');
+    const canvas = document.getElementById('graficoComparativo');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
     if (chartInstancia) chartInstancia.destroy();
     chartInstancia = new Chart(ctx, {
       type:'bar',
@@ -259,7 +256,7 @@
         htmlM += `<div class="p-4"><div class="font-black">${d.Name || '--'}</div><div class="text-xs text-blue-200">${d.Area || '--'}</div><div class="mt-2 flex gap-2 flex-wrap"><span class="px-2 py-1 rounded text-xs font-black ${ed.clase}">${ed.texto}</span><span class="px-2 py-1 rounded text-xs font-black ${eg.clase}">${eg.texto}</span></div></div>`;
       });
     } else {
-      document.getElementById('cabecera-tabla').innerHTML = `<th class="p-4">Dispositivo</th><th class="p-4">Estado</th><th class="p-4">Última Desconexión</th><th class="p-4">Tiempo Total Fuera de Línea</th>`;
+      document.getElementById('cabecera-tabla').innerHTML = `<th class="p-4">Cliente</th><th class="p-4">Estado</th><th class="p-4">Última Desconexión</th><th class="p-4">Tiempo Total Fuera de Línea</th>`;
       const data = dispositivos.filter(d => {
         const online = esOnline(d['Current Status']);
         if (filtro === 'online' && !online) return false;
