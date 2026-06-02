@@ -33,33 +33,48 @@
     .progress-track { height:4px; background:#2b2b2b; border-radius:999px; overflow:hidden; }
     .progress-fill { height:100%; background:#ef4444; border-radius:999px; }
     .progress-fill.ok { background:#6b7280; }
+    .theme-toggle {
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      border: 1px solid #334155;
+      background: #020617;
+      color: #ffffff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all .2s ease;
+    }
+    .theme-toggle:hover { border-color:#ef4444; transform: translateY(-1px); }
 
-    /* TEMA CLARO OPCIONAL */
-    body.light-theme { background:#f4f1eb; color:#111827; }
-    body.light-theme .premium-card { background:#ffffff; border-color:#dedbd3; box-shadow:0 4px 18px rgba(0,0,0,.08); color:#111827; }
-    body.light-theme .brand-box { background:#ffffff; border-color:#dedbd3; }
-    body.light-theme .area-card { background:#ffffff; border-color:#dedbd3; color:#111827; box-shadow:0 4px 14px rgba(0,0,0,.08); }
-    body.light-theme .area-card:hover { border-color:#9ca3af; }
-    body.light-theme .progress-track { background:#e5e7eb; }
-    body.light-theme th { color:#1f2937; }
-    body.light-theme td { border-color:#e5e7eb !important; }
-    body.light-theme .text-white { color:#111827 !important; }
+    body.light-theme { background:#eeebe6; color:#0f172a; }
+    body.light-theme .premium-card { background:#ffffff; border-color:#d8d4cc; color:#0f172a; box-shadow:0 10px 25px rgba(15,23,42,.08); }
+    body.light-theme .brand-box { background:#07070a !important; border-color:#d8d4cc; }
+    body.light-theme .client-logo { filter:none !important; opacity:1 !important; }
+    body.light-theme .rp-logo { filter:none !important; opacity:1 !important; }
+    body.light-theme .text-white { color:#0f172a !important; }
     body.light-theme .text-blue-100,
     body.light-theme .text-blue-200,
     body.light-theme .text-slate-300,
-    body.light-theme .text-slate-400 { color:#475569 !important; }
+    body.light-theme .text-slate-400 { color:#334155 !important; }
+    body.light-theme .text-red-500 { color:#dc2626 !important; }
+    body.light-theme .text-emerald-400 { color:#10b981 !important; }
+    body.light-theme .text-sky-500 { color:#0284c7 !important; }
     body.light-theme .bg-slate-900,
     body.light-theme .bg-slate-950 { background:#ffffff !important; }
-    body.light-theme .border-slate-700 { border-color:#d1d5db !important; }
-    body.light-theme .divide-slate-800 > :not([hidden]) ~ :not([hidden]) { border-color:#e5e7eb !important; }
-    body.light-theme .hover\:bg-slate-900\/70:hover { background:#f3f4f6 !important; }
-    body.light-theme #buscador { background:#ffffff !important; color:#111827 !important; border-color:#cbd5e1 !important; }
-    body.light-theme #buscador::placeholder { color:#64748b; }
-    body.light-theme .status-banner-service { color:#334155 !important; }
-    #btn-tema { width:42px; height:42px; display:flex; align-items:center; justify-content:center; border-radius:999px; border:1px solid #334155; background:#050816; color:#fff; transition:.2s; }
-    #btn-tema:hover { transform:translateY(-1px); border-color:#ef4444; }
-    body.light-theme #btn-tema { background:#ffffff; color:#111827; border-color:#d1d5db; }
-
+    body.light-theme .bg-slate-800 { background:#f1f5f9 !important; }
+    body.light-theme .border-slate-700,
+    body.light-theme .border-slate-800 { border-color:#cbd5e1 !important; }
+    body.light-theme .hover\:bg-slate-800:hover,
+    body.light-theme .hover\:bg-slate-900\/70:hover { background:#f1f5f9 !important; }
+    body.light-theme th { color:#0f172a; }
+    body.light-theme td { border-color:#dbe3ef !important; }
+    body.light-theme input { background:#ffffff !important; color:#0f172a !important; border-color:#cbd5e1 !important; }
+    body.light-theme input::placeholder { color:#64748b !important; }
+    body.light-theme .area-card { background:#ffffff; border-color:#d8d4cc; color:#0f172a; box-shadow:0 10px 25px rgba(15,23,42,.08); }
+    body.light-theme .progress-track { background:#e5e7eb; }
+    body.light-theme .theme-toggle { background:#ffffff; color:#0f172a; border-color:#cbd5e1; }
+    body.light-theme #update-time { background:#f1f5f9 !important; color:#0f172a !important; border-color:#cbd5e1 !important; }
     @media print {
       .no-print, #buscador, #btn-pdf, #btn-tema { display:none !important; }
       body { background:white !important; color:black !important; }
@@ -84,13 +99,13 @@
 
       <div class="flex flex-col items-center lg:items-end gap-2 min-w-[230px]">
         <img src="./assets/logo-recinto-protegido.png" alt="Recinto Protegido" class="rp-logo mb-1" onerror="this.style.display='none';">
-        <div class="flex items-center justify-center lg:justify-end gap-3 mt-2">
+        <div class="flex items-center gap-3 mt-2">
           <div class="text-xs text-blue-100 text-center lg:text-right space-y-1">
             <div><i class="fa-solid fa-clock text-red-500"></i> Reloj Chile: <span id="reloj-vivo" class="font-mono font-black text-white">--:--:--</span></div>
             <div>Última sincro: <span id="update-time" class="px-2 py-1 rounded bg-slate-800 border border-slate-700 text-white font-black">--</span></div>
           </div>
-          <button id="btn-tema" type="button" title="Cambiar tema" aria-label="Cambiar tema">
-            <i id="icono-tema" class="fa-solid fa-moon"></i>
+          <button id="btn-tema" class="theme-toggle no-print" type="button" title="Cambiar tema">
+            <i id="icono-tema" class="fa-solid fa-sun"></i>
           </button>
         </div>
       </div>
@@ -176,28 +191,29 @@
   let chartInstancia = null;
   let chartAreas = null;
 
+  function temaClaroActivo() {
+    return document.body.classList.contains('light-theme');
+  }
+
   function aplicarTemaGuardado() {
-    const tema = localStorage.getItem('tema_sportlife') || 'dark';
-    document.body.classList.toggle('light-theme', tema === 'light');
+    const tema = localStorage.getItem('sportlife_theme') || 'dark';
     const icono = document.getElementById('icono-tema');
-    if (icono) icono.className = tema === 'light' ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+    if (tema === 'light') {
+      document.body.classList.add('light-theme');
+      if (icono) icono.className = 'fa-solid fa-moon';
+    } else {
+      document.body.classList.remove('light-theme');
+      if (icono) icono.className = 'fa-solid fa-sun';
+    }
   }
 
-  function cambiarTema() {
-    const esClaro = document.body.classList.toggle('light-theme');
-    localStorage.setItem('tema_sportlife', esClaro ? 'light' : 'dark');
+  function alternarTema() {
+    const claro = !document.body.classList.contains('light-theme');
+    document.body.classList.toggle('light-theme', claro);
+    localStorage.setItem('sportlife_theme', claro ? 'light' : 'dark');
     const icono = document.getElementById('icono-tema');
-    if (icono) icono.className = esClaro ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+    if (icono) icono.className = claro ? 'fa-solid fa-moon' : 'fa-solid fa-sun';
     render();
-  }
-
-  function coloresGrafico() {
-    const claro = document.body.classList.contains('light-theme');
-    return {
-      texto: claro ? '#1f2937' : '#ffffff',
-      ticks: claro ? '#475569' : '#94a3b8',
-      grid: claro ? '#e5e7eb' : '#222222'
-    };
   }
 
   function textoRegistro(obj) { return JSON.stringify(obj || {}).toUpperCase(); }
@@ -446,10 +462,10 @@
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        plugins: { legend: { position: 'bottom', labels: { color: coloresGrafico().texto } } },
+        plugins: { legend: { position: 'bottom', labels: { color: temaClaroActivo() ? '#0f172a' : '#fff' } } },
         scales: {
-          x: { stacked:false, grid:{ color: coloresGrafico().grid }, ticks:{ color: coloresGrafico().ticks, maxRotation:35, minRotation:0 } },
-          y: { beginAtZero:true, grid:{ color: coloresGrafico().grid }, ticks:{ color: coloresGrafico().ticks, precision:0 } }
+          x: { stacked:false, grid:{ color: temaClaroActivo() ? '#e2e8f0' : '#222' }, ticks:{ color: temaClaroActivo() ? '#334155' : '#cbd5e1', maxRotation:35, minRotation:0 } },
+          y: { beginAtZero:true, grid:{ color: temaClaroActivo() ? '#e2e8f0' : '#222' }, ticks:{ color: temaClaroActivo() ? '#475569' : '#94a3b8', precision:0 } }
         }
       }
     });
@@ -467,7 +483,7 @@
         { label:'Equipos Offline', data:[offline], backgroundColor:'#ef4444', barPercentage:.55 },
         { label:'Grabación En Falla', data:[grabFalla], backgroundColor:'#eab308', barPercentage:.55 }
       ]},
-      options:{ indexAxis:'y', responsive:true, maintainAspectRatio:false, plugins:{ legend:{ position:'bottom', labels:{ color: coloresGrafico().texto }}}, scales:{ x:{ grid:{ color: coloresGrafico().grid }, ticks:{ color: coloresGrafico().ticks }}, y:{ display:false }} }
+      options:{ indexAxis:'y', responsive:true, maintainAspectRatio:false, plugins:{ legend:{ position:'bottom', labels:{ color: temaClaroActivo() ? '#0f172a' : '#fff' }}}, scales:{ x:{ grid:{ color: temaClaroActivo() ? '#e2e8f0' : '#222' }, ticks:{ color: temaClaroActivo() ? '#475569' : '#94a3b8' }}, y:{ display:false }} }
     });
   }
 
@@ -520,7 +536,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     aplicarTemaGuardado();
     const btnTema = document.getElementById('btn-tema');
-    if (btnTema) btnTema.addEventListener('click', cambiarTema);
+    if (btnTema) btnTema.addEventListener('click', alternarTema);
     actualizarReloj();
     cargarDatos();
     document.getElementById('buscador').addEventListener('input', () => { if (filtro === 'areas') renderAreas(); else renderTabla(); });
