@@ -27,6 +27,12 @@
     .status-banner { min-height:54px; display:flex; align-items:center; justify-content:center; position:relative; }
     .status-banner-title { text-align:center; font-weight:900; letter-spacing:.02em; }
     .status-banner-service { position:absolute; right:1rem; top:50%; transform:translateY(-50%); }
+    .area-card { background:#111; border:1px solid #252525; border-left:4px solid #ef4444; border-radius:10px; transition:transform .2s, border-color .2s; }
+    .area-card.ok { border-left-color:#6b7280; }
+    .area-card:hover { transform:translateY(-2px); border-color:#475569; }
+    .progress-track { height:4px; background:#2b2b2b; border-radius:999px; overflow:hidden; }
+    .progress-fill { height:100%; background:#ef4444; border-radius:999px; }
+    .progress-fill.ok { background:#6b7280; }
     @media print {
       .no-print, #buscador, #btn-pdf, #btn-tema { display:none !important; }
       body { background:white !important; color:black !important; }
@@ -86,6 +92,7 @@
     <section class="flex flex-col lg:flex-row gap-3 items-center justify-between no-print">
       <div class="flex flex-wrap bg-slate-900 p-1 rounded-lg border border-slate-700 gap-1 text-xs font-bold w-full lg:w-auto">
         <button onclick="setFiltro('todos')" id="btn-todos" class="px-4 py-2 rounded bg-slate-600 text-white flex-1">Dispositivos</button>
+        <button onclick="setFiltro('areas')" id="btn-areas" class="px-4 py-2 rounded text-slate-300 hover:bg-slate-800 flex-1">Sucursales</button>
         <button onclick="setFiltro('online')" id="btn-online" class="px-4 py-2 rounded text-slate-300 hover:bg-slate-800 flex-1">Online</button>
         <button onclick="setFiltro('offline')" id="btn-offline" class="px-4 py-2 rounded text-slate-300 hover:bg-slate-800 flex-1">Offline</button>
         <button onclick="setFiltro('grabaciones')" id="btn-grabaciones" class="px-4 py-2 rounded text-slate-300 hover:bg-slate-800 flex-1">Estado de Grabaciones</button>
@@ -96,7 +103,28 @@
       </div>
     </section>
 
-    <section class="premium-card overflow-hidden">
+
+    <section id="modulo-areas" class="space-y-5 hidden">
+      <section class="premium-card p-5">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-4">
+          <h2 class="text-sm md:text-base font-black uppercase tracking-wide text-white">Cámaras por sucursal</h2>
+          <p class="text-[10px] uppercase tracking-[.25em] text-blue-200">Online vs. sin conexión</p>
+        </div>
+        <div class="h-72 w-full">
+          <canvas id="graficoAreas"></canvas>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-4">
+          <h2 class="text-base md:text-lg font-black text-white">Estado por sucursal</h2>
+          <p id="contador-areas" class="text-[10px] uppercase tracking-[.25em] text-blue-200">-- sucursales · clic para detalle</p>
+        </div>
+        <div id="cards-areas" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
+      </section>
+    </section>
+
+    <section id="seccion-tabla" class="premium-card overflow-hidden">
       <div class="overflow-x-auto">
         <table class="w-full text-left border-collapse hidden md:table">
           <thead><tr id="cabecera-tabla" class="border-b border-slate-700 bg-slate-950"></tr></thead>
@@ -114,6 +142,7 @@
   let grabaciones = [];
   let filtro = 'todos';
   let chartInstancia = null;
+  let chartAreas = null;
 
   function textoRegistro(obj) { return JSON.stringify(obj || {}).toUpperCase(); }
   function esCliente(obj) { return textoRegistro(obj).includes(CLIENTE_FILTRO); }
@@ -152,6 +181,66 @@
     if (!str || str === '0' || str === '00:00:00' || String(str).includes('--')) return 0;
     const p = String(str).split(':').map(x => parseInt(x,10));
     return p.length === 3 ? (p[0]*3600 + p[1]*60 + p[2]) : 0;
+  }
+
+
+  function limpiarNombreArea(area) {
+    let texto = String(area || 'SPORTLIFE').trim();
+    texto = texto.replace(/\s+/g, ' ');
+    texto = texto.replace(/\([^)]*\)/g, '').trim();
+    texto = texto.replace(/^CA\s*\d+\s*/i, '').trim();
+    texto = texto.replace(/^C\d+[-\d]*\s*/i, '').trim();
+    texto = texto.replace(/SPORTLIFE\s*/i, '').trim();
+    texto = texto.replace(/MALL\s*/i, '').trim();
+    return texto || 'SPORTLIFE';
+  }
+
+  function getAreaRegistro(d) {
+    return limpiarNombreArea(d.Area || d.Address || d.Name || 'SPORTLIFE');
+  }
+
+  function resumenPorArea() {
+    const mapa = new Map();
+
+    camaras.forEach(c => {
+      const area = getAreaRegistro(c);
+      if (!mapa.has(area)) {
+        mapa.set(area, { area, camOnline:0, camOffline:0, totalCam:0, equipos:new Set(), equiposOffline:new Set(), grabFalla:0, grabTotal:0 });
+      }
+      const r = mapa.get(area);
+      r.totalCam++;
+      if (esOnline(c['Current Status'])) r.camOnline++; else r.camOffline++;
+    });
+
+    dispositivos.forEach(d => {
+      const area = getAreaRegistro(d);
+      if (!mapa.has(area)) {
+        mapa.set(area, { area, camOnline:0, camOffline:0, totalCam:0, equipos:new Set(), equiposOffline:new Set(), grabFalla:0, grabTotal:0 });
+      }
+      const r = mapa.get(area);
+      const nombre = String(d.Name || area);
+      r.equipos.add(nombre);
+      if (!esOnline(d['Current Status'])) r.equiposOffline.add(nombre);
+    });
+
+    grabaciones.forEach(g => {
+      const area = getAreaRegistro(g);
+      if (!mapa.has(area)) {
+        mapa.set(area, { area, camOnline:0, camOffline:0, totalCam:0, equipos:new Set(), equiposOffline:new Set(), grabFalla:0, grabTotal:0 });
+      }
+      const r = mapa.get(area);
+      r.grabTotal++;
+      if (!evaluarGrabacion(g['Recording Integrity Rate']).normal) r.grabFalla++;
+    });
+
+    return [...mapa.values()].map(r => {
+      const total = r.totalCam || r.grabTotal || 0;
+      const pctOnline = total > 0 ? ((r.camOnline / total) * 100) : 0;
+      return { ...r, disponibilidad: pctOnline };
+    }).sort((a,b) => {
+      if (b.camOffline !== a.camOffline) return b.camOffline - a.camOffline;
+      return a.area.localeCompare(b.area, 'es');
+    });
   }
 
   async function cargarDatos() {
@@ -195,7 +284,7 @@
 
   function setFiltro(nuevo) {
     filtro = nuevo;
-    ['todos','online','offline','grabaciones'].forEach(id => {
+    ['todos','areas','online','offline','grabaciones'].forEach(id => {
       const b = document.getElementById('btn-' + id);
       b.className = id === nuevo ? 'px-4 py-2 rounded bg-slate-600 text-white flex-1' : 'px-4 py-2 rounded text-slate-300 hover:bg-slate-800 flex-1';
     });
@@ -203,6 +292,17 @@
   }
 
   function render() {
+    const seccionTabla = document.getElementById('seccion-tabla');
+    const moduloAreas = document.getElementById('modulo-areas');
+    if (seccionTabla && moduloAreas) {
+      if (filtro === 'areas') {
+        seccionTabla.classList.add('hidden');
+        moduloAreas.classList.remove('hidden');
+      } else {
+        seccionTabla.classList.remove('hidden');
+        moduloAreas.classList.add('hidden');
+      }
+    }
     const totalEq = dispositivos.length;
     const eqOnline = dispositivos.filter(d => esOnline(d['Current Status'])).length;
     const eqOffline = Math.max(totalEq - eqOnline, 0);
@@ -220,7 +320,83 @@
     document.getElementById('kpi-cam-dispo').innerText = pct(camOnline,totalCam) + '%';
 
     renderGrafico(eqOnline, eqOffline, grabaciones.filter(g => !evaluarGrabacion(g['Recording Integrity Rate']).normal).length);
-    renderTabla();
+    renderAreas();
+    if (filtro !== 'areas') renderTabla();
+  }
+
+
+  function renderAreas() {
+    const areas = resumenPorArea();
+    const cards = document.getElementById('cards-areas');
+    const contador = document.getElementById('contador-areas');
+    if (!cards) return;
+
+    if (contador) contador.innerText = `${areas.length} sucursales · clic para detalle`;
+
+    const term = document.getElementById('buscador').value.toLowerCase().trim();
+    const visibles = areas.filter(a => !term || a.area.toLowerCase().includes(term));
+
+    cards.innerHTML = visibles.map(a => {
+      const pctTexto = a.totalCam > 0 ? `${a.disponibilidad.toFixed(1)}%` : '--';
+      const ok = a.camOffline === 0 && a.grabFalla === 0;
+      const totalEquipos = a.equipos.size || 1;
+      const offlineEquipos = a.equiposOffline.size;
+      const onlineEquipos = Math.max(totalEquipos - offlineEquipos, 0);
+      const barra = Math.min(Math.max(a.disponibilidad, 0), 100);
+      const clase = ok ? 'area-card ok' : 'area-card';
+      const badge = ok ? 'TODO OK' : `${a.camOffline} CÁM. OFF`;
+      const badgeClase = ok ? 'status-online' : 'status-offline';
+
+      return `<button onclick="filtrarAreaDesdeCard('${a.area.replace(/'/g, "\\'")}')" class="${clase} p-4 text-left w-full">
+        <div class="text-[10px] uppercase tracking-[.25em] text-blue-200 mb-2">${onlineEquipos}/${totalEquipos} equipos · ${a.totalCam} cámaras</div>
+        <div class="font-black text-white text-base mb-2">${a.area}</div>
+        <div class="flex items-end justify-between gap-3 mb-2">
+          <div><span class="text-3xl font-black text-white">${a.camOnline}</span><span class="text-sm text-blue-200"> / ${a.totalCam}</span></div>
+          <div class="text-xs font-black ${ok ? 'text-white' : 'text-red-400'}">${pctTexto}</div>
+        </div>
+        <div class="progress-track mb-3"><div class="progress-fill ${ok ? 'ok' : ''}" style="width:${barra}%"></div></div>
+        <div class="flex items-center justify-between">
+          <span class="px-2 py-1 rounded text-[10px] font-black ${badgeClase}">${badge}</span>
+          <span class="text-blue-200">→</span>
+        </div>
+      </button>`;
+    }).join('') || `<div class="premium-card p-8 text-center text-slate-400 col-span-full">No hay sucursales que coincidan.</div>`;
+
+    renderGraficoAreas(visibles);
+  }
+
+  function filtrarAreaDesdeCard(area) {
+    const buscador = document.getElementById('buscador');
+    if (buscador) buscador.value = area;
+    setFiltro('todos');
+  }
+
+  function renderGraficoAreas(areas) {
+    const canvas = document.getElementById('graficoAreas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    if (chartAreas) chartAreas.destroy();
+
+    const top = [...areas].sort((a,b) => b.totalCam - a.totalCam).slice(0, 12);
+    chartAreas = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: top.map(a => a.area),
+        datasets: [
+          { label: 'En línea', data: top.map(a => a.camOnline), backgroundColor: '#10b981', borderRadius: 4 },
+          { label: 'Sin conexión', data: top.map(a => a.camOffline), backgroundColor: '#ef4444', borderRadius: 4 }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'bottom', labels: { color:'#fff' } } },
+        scales: {
+          x: { stacked:false, grid:{ color:'#222' }, ticks:{ color:'#cbd5e1', maxRotation:35, minRotation:0 } },
+          y: { beginAtZero:true, grid:{ color:'#222' }, ticks:{ color:'#94a3b8', precision:0 } }
+        }
+      }
+    });
   }
 
   function renderGrafico(online, offline, grabFalla) {
@@ -288,7 +464,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     actualizarReloj();
     cargarDatos();
-    document.getElementById('buscador').addEventListener('input', renderTabla);
+    document.getElementById('buscador').addEventListener('input', () => { if (filtro === 'areas') renderAreas(); else renderTabla(); });
     setInterval(cargarDatos, 60000);
   });
 </script>
