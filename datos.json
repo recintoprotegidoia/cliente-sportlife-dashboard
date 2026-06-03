@@ -1,6 +1,6 @@
 {
   "cliente": "GIMNASIOS SPORTLIFE",
-  "ultima_actualizacion": "01-06-2026, 9:01:46 p. m.",
+  "ultima_actualizacion": "03-06-2026, 7:19:13 p. m.",
   "registros": [
     {
       "Name": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
@@ -421,9 +421,9 @@
       "Address": "--",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-28 04:37:04",
-      "Total Offline Times": "0",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-02 11:30:04",
+      "Total Offline Times": "1",
+      "Total Offline Duration": "00:03:09"
     },
     {
       "Name": "Camera 02",
@@ -1132,9 +1132,9 @@
       "Address": "--",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-17 22:02:15",
-      "Total Offline Times": "0",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-02 11:30:04",
+      "Total Offline Times": "1",
+      "Total Offline Duration": "00:03:09"
     },
     {
       "Name": "mancuernas",
@@ -1528,7 +1528,7 @@
       "Address": "--",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-25 04:29:58",
+      "Latest Offline Time": "2026-06-01 20:41:49",
       "Total Offline Times": "0",
       "Total Offline Duration": "00:00:00"
     },
@@ -1780,9 +1780,9 @@
       "Address": "--",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-28 07:35:25",
-      "Total Offline Times": "0",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-02 11:30:04",
+      "Total Offline Times": "1",
+      "Total Offline Duration": "00:03:09"
     },
     {
       "Name": "picsina",
@@ -2501,8 +2501,8 @@
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-05-31 01:18:59",
-      "Total Offline Times": "1",
-      "Total Offline Duration": "00:02:56"
+      "Total Offline Times": "0",
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "torniquetes",
