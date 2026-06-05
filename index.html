@@ -26,7 +26,6 @@
         .brand-logo-box { background: #0a060b; border: 1px solid rgba(255,255,255,0.10); }
         .brand-logo-img { display: block; width: 11rem; height: auto; object-fit: contain; }
 
-        /* Scrollbar modal */
         ::-webkit-scrollbar { width: 6px; height: 6px; }
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
@@ -34,73 +33,61 @@
         ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
 
         /* ==========================================================================
-           NUEVAS REGLAS ESTRICTAS PARA PDF (CORRIGE TAMAÑOS Y TEXTOS INVISIBLES)
+           REGLAS DE IMPRESIÓN LIMPIAS Y ESTRUCTURALES
            ========================================================================== */
         @media print {
             @page { margin: 10mm; size: A4 portrait; }
             
-            /* Forzar el fondo a blanco y quitar oscuros */
-            body, .dark body { background-color: white !important; color: black !important; }
+            /* Forzar fondos blancos limpios para ahorrar tinta */
+            body { background-color: #ffffff !important; }
             
-            /* Ocultar elementos interactivos */
-            .no-print, #buscador, #btn-tema { display: none !important; }
+            /* Ocultar botones y buscadores */
+            .no-print, #buscador, #btn-tema, .controles-flotantes { display: none !important; }
             
-            /* Forzar la impresión de colores de fondo (Tailwind bg) */
+            /* Mantener colores de los tags (verde/rojo) */
             * {
                 -webkit-print-color-adjust: exact !important;
                 print-color-adjust: exact !important;
                 color-adjust: exact !important;
             }
 
-            /* Contenedor principal al 100% y con algo de zoom (scale) */
+            /* Estructura del documento al imprimir */
             #contenido-principal {
-                max-width: 100% !important; width: 100% !important; margin: 0 !important; padding: 0 !important;
-                zoom: 0.85; /* Reduce todo un 15% para que luzca profesional */
+                max-width: 100% !important; 
+                width: 100% !important; 
+                margin: 0 !important; 
+                padding: 0 !important;
+                zoom: 0.85; /* Ajuste de zoom perfecto para encajar en la hoja */
             }
 
-            /* FORZAR LOS KPIs SUPERIORES A 4 COLUMNAS */
+            /* KPIs superiores en 4 columnas */
             #kpis-generales {
                 display: grid !important;
                 grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
                 gap: 12px !important;
             }
 
-            /* FORZAR LAS TARJETAS A 3 COLUMNAS EXACTAS (Evita que se vean gigantes) */
+            /* Tarjetas de sucursales en 3 columnas estrictas */
             #contenedor-sucursales {
                 display: grid !important;
                 grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
                 gap: 12px !important;
             }
 
-            /* Forzar las tarjetas para que no se corten por la mitad */
+            /* Evitar cortes a la mitad de la tarjeta */
             .premium-card {
-                background-color: white !important;
-                border: 1px solid #d1d5db !important;
                 break-inside: avoid !important;
                 page-break-inside: avoid !important;
+                box-shadow: none !important;
+                border: 1px solid #e5e7eb !important; /* Borde gris suave en impresión */
             }
-
-            /* CORRECCIÓN: Evitar que el texto quede blanco e invisible en modo oscuro */
-            .premium-card h3, .premium-card span, .premium-card div, .premium-card p, #cliente-nombre, #reloj-vivo {
-                color: #0f172a !important; /* Negro/Gris muy oscuro */
-            }
-            .text-gray-400, .text-gray-500 { color: #64748b !important; } /* Grises legibles */
-
-            /* Colores estrictos para los badges de estado para que no se pierdan */
-            .status-online { background-color: #d1fae5 !important; color: #047857 !important; border: 1px solid #10b981 !important; }
-            .status-offline { background-color: #fee2e2 !important; color: #b91c1c !important; border: 1px solid #ef4444 !important; }
-            .text-emerald-500 { color: #10b981 !important; }
-            .text-red-500 { color: #ef4444 !important; }
-            .text-orange-500 { color: #f97316 !important; }
             
             .brand-logo-box { background: white !important; border: 1px solid #ccc !important; }
 
-            /* Lógica de Modal (Si imprimes el detalle, oculta el tablero) */
+            /* Modo Modal (si se imprime el detalle de una sucursal) */
             body.modal-open #contenido-principal { display: none !important; }
             body.modal-open #modal-detalle { display: block !important; position: relative !important; background: white !important; }
-            body.modal-open .premium-card { box-shadow: none !important; border: none !important; }
-            #modal-tbody td, #modal-title { color: black !important; }
-            #modal-tbody tr { background: white !important; border-bottom: 1px solid #e5e7eb !important; }
+            body.modal-open .premium-card { border: none !important; }
         }
     </style>
 </head>
@@ -179,7 +166,7 @@
 
     </div>
 
-    <button onclick="window.print()" class="fixed bottom-6 right-6 z-40 bg-red-600 text-white rounded-full px-5 py-3 shadow-2xl hover:bg-red-700 transition transform hover:-translate-y-1 font-bold uppercase tracking-wider flex items-center gap-2 no-print group cursor-pointer border-2 border-red-800/30">
+    <button onclick="window.print()" class="controles-flotantes fixed bottom-6 right-6 z-40 bg-red-600 text-white rounded-full px-5 py-3 shadow-2xl hover:bg-red-700 transition transform hover:-translate-y-1 font-bold uppercase tracking-wider flex items-center gap-2 no-print group cursor-pointer border-2 border-red-800/30">
         <i class="fa-solid fa-file-pdf text-xl"></i>
         <span class="hidden md:inline">Descargar PDF</span>
     </button>
@@ -199,9 +186,7 @@
             </div>
 
             <div class="p-6 overflow-y-auto flex-1 bg-white dark:bg-[#0a0a0a]">
-                
                 <div id="modal-alertas" class="mb-6"></div>
-
                 <div class="border border-gray-200 dark:border-slate-800 rounded-lg overflow-hidden">
                     <table class="w-full text-left border-collapse text-sm">
                         <thead class="bg-gray-100 dark:bg-slate-800/80 border-b border-gray-200 dark:border-slate-700">
@@ -213,7 +198,7 @@
                             </tr>
                         </thead>
                         <tbody id="modal-tbody" class="divide-y divide-gray-100 dark:divide-slate-800/50">
-                            </tbody>
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -225,7 +210,7 @@
     </div>
 
     <script>
-        // Tema
+        // TEMA OSCURO/CLARO
         const btnTema = document.getElementById('btn-tema');
         const iconoTema = document.getElementById('icono-tema');
         if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -240,15 +225,30 @@
             }
         });
 
+        // REGLAS JAVASCRIPT INTELIGENTES PARA IMPRESIÓN (INTERCEPTORES)
+        // Esto apaga el modo oscuro justo antes de imprimir para que todo quede en fondo blanco con letras negras legibles.
+        let temaPrevio = null;
+        window.addEventListener('beforeprint', () => {
+            const htmlTag = document.documentElement;
+            if (htmlTag.classList.contains('dark')) {
+                temaPrevio = 'dark';
+                htmlTag.classList.remove('dark');
+            }
+        });
+        window.addEventListener('afterprint', () => {
+            if (temaPrevio === 'dark') {
+                document.documentElement.classList.add('dark');
+                temaPrevio = null;
+            }
+        });
+
         setInterval(() => { document.getElementById('reloj-vivo').innerText = new Date().toLocaleTimeString('es-CL', { timeZone: 'America/Santiago' }); }, 1000);
 
         let dataHCPDevice = []; let dataHCPResource = []; let dataHCPRecording = [];
         let sucursalesArray = [];
 
-        // MOTOR DE AGRUPACIÓN Y DETALLE
         function procesarSucursales() {
             const mapa = {};
-
             dataHCPDevice.forEach(dev => {
                 let nombreBruto = (dev["Name"] || "").trim();
                 if (!nombreBruto || nombreBruto === "0" || nombreBruto.toLowerCase().includes("device")) return;
