@@ -34,7 +34,9 @@
         .dark ::-webkit-scrollbar-thumb { background: #333; }
         ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
 
-        /* REGLAS PARA IMPRESIÓN */
+        /* ==========================================================================
+           REGLAS INFALIBLES PARA IMPRESIÓN 
+           ========================================================================== */
         @media print {
             @page { margin: 10mm; size: A4 portrait; }
             body { background: white !important; color: black !important; }
@@ -44,14 +46,18 @@
             #contenido-principal { display: none !important; }
             #modal-detalle { display: none !important; }
 
+            /* Ajustes precisos para la tabla consolidada para que jamás se descuadre */
             body.imprimiendo-consolidado #modal-consolidado {
                 display: block !important; position: static !important; background: white !important; color: black !important; height: auto !important; overflow: visible !important; padding: 0 !important;
             }
             body.imprimiendo-consolidado .max-w-6xl { max-width: 100% !important; margin: 0 !important; padding: 0 !important; }
-            body.imprimiendo-consolidado table { width: 100% !important; border-collapse: collapse !important; margin-top: 15px; table-layout: auto !important; white-space: normal !important; }
-            body.imprimiendo-consolidado th, body.imprimiendo-consolidado td { white-space: normal !important; word-wrap: break-word !important; }
-            body.imprimiendo-consolidado th { background-color: #f3f4f6 !important; border: 1px solid #999 !important; color: black !important; font-size: 11px !important; padding: 6px !important; }
-            body.imprimiendo-consolidado td { border: 1px solid #ddd !important; color: black !important; font-size: 10px !important; padding: 6px !important; }
+            
+            /* Table-layout fixed garantiza que respete el ancho de la hoja */
+            body.imprimiendo-consolidado table { width: 100% !important; border-collapse: collapse !important; margin-top: 15px; table-layout: fixed !important; }
+            body.imprimiendo-consolidado th, body.imprimiendo-consolidado td { white-space: normal !important; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+            body.imprimiendo-consolidado th { background-color: #f3f4f6 !important; border: 1px solid #999 !important; color: black !important; font-size: 10px !important; padding: 5px !important; }
+            body.imprimiendo-consolidado td { border: 1px solid #ddd !important; color: black !important; font-size: 9px !important; padding: 5px !important; }
+            
             ::-webkit-scrollbar { display: none !important; }
         }
     </style>
@@ -143,7 +149,7 @@
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 border-b border-gray-200 dark:border-slate-800 pb-4 no-print gap-4">
                 <div>
                     <h2 class="text-2xl font-black text-slate-800 dark:text-white uppercase tracking-tight"><i class="fa-solid fa-table-list text-red-500 mr-2"></i> Reporte Consolidado</h2>
-                    <p class="text-gray-500 text-sm mt-1">Vista tabular lista para impresión en hoja tamaño A4.</p>
+                    <p class="text-gray-500 text-sm mt-1">Vista tabular ajustada para impresión perfecta en hoja A4.</p>
                 </div>
                 <div class="flex gap-3 w-full md:w-auto">
                     <button onclick="cerrarConsolidado()" class="flex-1 md:flex-none bg-gray-200 dark:bg-slate-800 text-slate-700 dark:text-white px-5 py-2.5 rounded-lg hover:bg-gray-300 dark:hover:bg-slate-700 font-bold transition">Cerrar</button>
@@ -161,7 +167,7 @@
                     <thead class="bg-gray-100 dark:bg-slate-800/80 border-b border-gray-200 dark:border-slate-700">
                         <tr>
                             <th class="p-3 text-slate-600 dark:text-slate-300 font-black uppercase tracking-wide">Sucursal</th>
-                            <th class="p-3 text-center text-slate-600 dark:text-slate-300 font-black uppercase tracking-wide">DVR (Central)</th>
+                            <th class="p-3 text-center text-slate-600 dark:text-slate-300 font-black uppercase tracking-wide">DVR (Estado)</th>
                             <th class="p-3 text-center text-slate-600 dark:text-slate-300 font-black uppercase tracking-wide">Total Cámaras</th>
                             <th class="p-3 text-center text-emerald-600 dark:text-emerald-500 font-black uppercase tracking-wide">Cam. Online</th>
                             <th class="p-3 text-center text-red-600 dark:text-red-500 font-black uppercase tracking-wide">Cam. Offline</th>
@@ -203,7 +209,6 @@
     </div>
 
     <script>
-        // TEMA OSCURO/CLARO
         const btnTema = document.getElementById('btn-tema');
         const iconoTema = document.getElementById('icono-tema');
         if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -218,125 +223,113 @@
             }
         });
 
-        // RELOJ
         setInterval(() => { document.getElementById('reloj-vivo').innerText = new Date().toLocaleTimeString('es-CL', { timeZone: 'America/Santiago' }); }, 1000);
 
-        // DATA
         let dataHCPDevice = []; let dataHCPResource = []; let dataHCPRecording = [];
         let sucursalesArray = [];
         let totalDVRsFisicos = 0;
         let nombreClienteGlobal = 'GIMNASIOS SPORTLIFE';
 
-        // LÓGICA DE LIMPIEZA INTELIGENTE PARA NOMBRES HIKVISION
-        function cleanBranchName(name) {
-            return name.replace(/\s*\(.*?\)\s*/g, '') // Elimina códigos entre paréntesis
-                       .replace(/^CA\s*\d+(?:-\d+)?\s+/i, '') // Elimina "CA 0085-1 ", "CA 0078 ", etc.
-                       .trim().toUpperCase();
+        // 🧠 MOTOR INTELIGENTE DE EXTRACCIÓN DEL "NOMBRE REAL" DE LA SUCURSAL
+        function getCoreName(name) {
+            if (!name) return "DESCONOCIDO";
+            // 1. Quitar códigos parentesis (Ej: "(FD7918414)")
+            let s = name.replace(/\s*\(.*?\)\s*/g, '').trim().toUpperCase();
+            // 2. Quitar códigos prefijos de equipo (Ej: "CA 0085-1 ", "CA 0092 ")
+            s = s.replace(/^CA\s*\d+(?:-\d+)?\s+/i, '').trim();
+            // 3. Quitar direcciones cortando por el guión medio (Ej: " - ANTONIA LOPEZ BELLO 100")
+            s = s.split(' - ')[0].trim();
+            return s;
         }
 
-        // MOTOR DE AGRUPACIÓN (Une múltiples DVRs en 1 sucursal)
+        // MOTOR DE AGRUPACIÓN Y VINCULACIÓN
         function procesarSucursales() {
             const mapa = {};
-            totalDVRsFisicos = 0;
+            
+            // CONTEO ESTRICTO DE EQUIPOS FISICOS VALIDOS
+            totalDVRsFisicos = dataHCPDevice.filter(d => {
+                let n = (d["Name"] || "").trim();
+                return n && n !== "0" && !n.toLowerCase().includes("device");
+            }).length;
 
-            // 1. Procesar Equipos (DVRs)
+            // 1. Mapeo de Equipos DVR
             dataHCPDevice.forEach(dev => {
                 let nombreBruto = (dev["Name"] || "").trim();
                 if (!nombreBruto || nombreBruto === "0" || nombreBruto.toLowerCase().includes("device")) return;
                 
-                let nombreLimpio = cleanBranchName(nombreBruto);
+                let coreName = getCoreName(nombreBruto);
                 let estado = String(dev["Current Status"] || "").toLowerCase() === "online" ? "Online" : "Offline";
 
-                if (!mapa[nombreLimpio]) {
-                    mapa[nombreLimpio] = {
-                        nombre: nombreLimpio, // Este es el nombre consolidado (Ej. "SPORTLIFE PEÑALOLEN")
-                        nombresBrutos: [], // Guardamos los originales para hacer cruces
-                        equipos: [], // Aquí guardamos los DVRs (puede haber 1, 2 o más)
+                if (!mapa[coreName]) {
+                    mapa[coreName] = {
+                        nombre: coreName,
+                        equipos: [],
                         ultimaDesconexion: dev["Latest Offline Time"] || "--",
                         camarasTotales: 0, camarasOnline: 0, alertasGrabacion: 0,
                         detalleCamaras: [], detalleGrabaciones: []
                     };
                 }
-                
-                mapa[nombreLimpio].nombresBrutos.push(nombreBruto.toUpperCase());
-                mapa[nombreLimpio].equipos.push({ nombre: nombreBruto, estado: estado });
-                totalDVRsFisicos++;
+                mapa[coreName].equipos.push({ nombre: nombreBruto, estado: estado });
             });
 
-            // 2. Procesar Cámaras
+            // 2. Mapeo de Cámaras
             dataHCPResource.forEach(cam => {
                 let areaBruta = (cam["Area"] || "").trim();
                 if (!areaBruta || areaBruta === "0") return;
                 
-                let areaLimpia = cleanBranchName(areaBruta);
-                let match = null;
+                let coreName = getCoreName(areaBruta);
 
-                if (mapa[areaLimpia]) {
-                    match = areaLimpia;
-                } else {
-                    match = Object.keys(mapa).find(k => k.includes(areaLimpia) || areaLimpia.includes(k));
+                if (!mapa[coreName]) {
+                    mapa[coreName] = { nombre: coreName, equipos: [], ultimaDesconexion: "--", camarasTotales: 0, camarasOnline: 0, alertasGrabacion: 0, detalleCamaras: [], detalleGrabaciones: [] };
                 }
 
-                if (!match) {
-                    match = areaLimpia;
-                    mapa[match] = { nombre: areaLimpia, nombresBrutos: [areaBruta.toUpperCase()], equipos: [], ultimaDesconexion: "--", camarasTotales: 0, camarasOnline: 0, alertasGrabacion: 0, detalleCamaras: [], detalleGrabaciones: [] };
-                }
-
-                mapa[match].camarasTotales++;
+                mapa[coreName].camarasTotales++;
                 let estadoRed = String(cam["Current Status"] || "").toLowerCase() === "online" ? "Online" : "Offline";
-                if (estadoRed === "Online") mapa[match].camarasOnline++;
+                if (estadoRed === "Online") mapa[coreName].camarasOnline++;
                 
-                mapa[match].detalleCamaras.push({ nombre: cam["Name"] || "--", estado: estadoRed });
+                mapa[coreName].detalleCamaras.push({ nombre: cam["Name"] || "--", estado: estadoRed });
             });
 
-            // 3. Procesar Grabaciones
+            // 3. Mapeo de Grabaciones
             dataHCPRecording.forEach(rec => {
                 let areaBruta = (rec["Area"] || "").trim();
                 if (!areaBruta) return;
                 
-                let areaLimpia = cleanBranchName(areaBruta);
-                let match = null;
+                let coreName = getCoreName(areaBruta);
 
-                if (mapa[areaLimpia]) {
-                    match = areaLimpia;
-                } else {
-                    match = Object.keys(mapa).find(k => k.includes(areaLimpia) || areaLimpia.includes(k));
-                }
-
-                if (match) {
+                if (mapa[coreName]) {
                     let disco = String(rec["Storage Type"] || "--");
                     let grab = String(rec["Recording Status"] || "--");
                     let enFalla = disco.toLowerCase().includes("falla") || grab.toLowerCase().includes("falla") || grab.toLowerCase().includes("sin datos");
                     
-                    if (enFalla) mapa[match].alertasGrabacion++;
-                    mapa[match].detalleGrabaciones.push({ nombre: rec["Name"] || "--", disco: disco, grabacion: grab, enFalla: enFalla });
+                    if (enFalla) mapa[coreName].alertasGrabacion++;
+                    mapa[coreName].detalleGrabaciones.push({ nombre: rec["Name"] || "--", disco: disco, grabacion: grab, enFalla: enFalla });
                 }
             });
 
-            // 4. Lógica de Deducción Global del estado de la Sucursal
+            // 4. Lógica de deducción del DVR
             let arrayResultante = Object.values(mapa);
             arrayResultante.forEach(s => {
                 if (s.equipos.length === 0) {
-                    // Si no tiene DVR registrado, deducimos por sus cámaras
                     if (s.camarasOnline > 0) s.estadoGlobal = "Online";
                     else if (s.camarasTotales > 0) s.estadoGlobal = "Offline";
                     else s.estadoGlobal = "Desconocido";
-                } else if (s.equipos.length === 1) {
-                    // 1 solo DVR
-                    s.estadoGlobal = s.equipos[0].estado;
                 } else {
-                    // Tiene 2 o más DVRs. Evaluamos todos.
+                    // Si tiene cámaras online, forzamos que al menos un DVR deba estar online
+                    if (s.camarasOnline > 0 && !s.equipos.some(e => e.estado === 'Online')) {
+                        s.equipos[0].estado = 'Online';
+                    }
+                    
                     let onlineCount = s.equipos.filter(e => e.estado === 'Online').length;
                     if (onlineCount === s.equipos.length) s.estadoGlobal = "Online";
                     else if (onlineCount === 0) s.estadoGlobal = "Offline";
-                    else s.estadoGlobal = "Offline Parcial"; // Ej. 1 prendido, 1 apagado
+                    else s.estadoGlobal = "Offline Parcial";
                 }
             });
 
             return arrayResultante.sort((a, b) => a.nombre.localeCompare(b.nombre));
         }
 
-        // RENDER TARJETAS
         function renderizarTarjetas(filtro = "") {
             const contenedor = document.getElementById('contenedor-sucursales');
             let html = "";
@@ -361,7 +354,7 @@
 
                 html += `
                 <div class="premium-card p-5 flex flex-col gap-4 relative overflow-hidden group ${borderCritico} transition hover:shadow-xl">
-                    <div class="flex justify-between items-start gap-3 cursor-pointer no-print" onclick="abrirModalDetalle('${s.nombreParaFiltro}')">
+                    <div class="flex justify-between items-start gap-3 cursor-pointer no-print" onclick="abrirModalDetalle('${s.nombre}')">
                         <div class="flex items-start gap-3">
                             <div class="p-2.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 mt-0.5"><i class="fa-solid fa-building text-lg"></i></div>
                             <div>
@@ -401,7 +394,7 @@
             contenedor.innerHTML = html;
         }
 
-        // --- FUNCIONES DEL CONSOLIDADO ---
+        // --- CONSOLIDADO ---
         function abrirConsolidado() {
             let html = '';
             document.getElementById('conso-title').innerText = nombreClienteGlobal;
@@ -448,9 +441,9 @@
             setTimeout(() => { document.body.classList.remove('imprimiendo-consolidado'); }, 1000);
         }
 
-        // --- FUNCIONES DETALLE ESPECIFICO ---
+        // --- DETALLE ESPECIFICO (MODAL) ---
         function abrirModalDetalle(idFiltro) {
-            const suc = sucursalesArray.find(s => s.nombreParaFiltro === idFiltro);
+            const suc = sucursalesArray.find(s => s.nombre === idFiltro);
             if (!suc) return;
             document.getElementById('modal-title').innerText = suc.nombre;
             
@@ -465,25 +458,19 @@
             let htmlFilas = '';
             let fallasDetectadas = [];
 
-            // Evaluamos los DVRs para las alertas
             if (suc.estadoGlobal === 'Offline' || suc.estadoGlobal === 'Offline Parcial') {
                 let fallos = suc.equipos.filter(e => e.estado === 'Offline').map(e => e.nombre);
-                if (fallos.length > 0) {
-                    fallasDetectadas.push(`<li><span class="font-bold">Equipo DVR:</span> ${fallos.join(', ')} apagados o sin conexión.</li>`);
-                } else {
-                    fallasDetectadas.push(`<li><span class="font-bold">Equipo DVR:</span> Apagado o sin conexión a red.</li>`);
-                }
+                if (fallos.length > 0) fallasDetectadas.push(`<li><span class="font-bold">DVR(s) desconectado(s):</span> ${fallos.join(', ')}</li>`);
+                else fallasDetectadas.push(`<li><span class="font-bold">DVR Principal:</span> Apagado o sin conexión a red.</li>`);
             }
 
             listadoFinal.forEach(item => {
                 let pifiasCamara = [];
                 if (item.estadoRed === 'Offline') pifiasCamara.push('Cámara desconectada');
-                if (item.disco.toLowerCase().includes('falla')) pifiasCamara.push('Soporte de almacenamiento (Disco) presenta falla física');
-                if (item.grabacion.toLowerCase().includes('falla') || item.grabacion.toLowerCase().includes('sin datos')) pifiasCamara.push('Pérdida de grabación de imágenes');
+                if (item.disco.toLowerCase().includes('falla')) pifiasCamara.push('Soporte de almacenamiento (Disco) en falla');
+                if (item.grabacion.toLowerCase().includes('falla') || item.grabacion.toLowerCase().includes('sin datos')) pifiasCamara.push('Pérdida de grabación');
                 
-                if (pifiasCamara.length > 0) {
-                    fallasDetectadas.push(`<li><span class="font-bold text-slate-800 dark:text-white">${item.nombre}:</span> ${pifiasCamara.join(' / ')}</li>`);
-                }
+                if (pifiasCamara.length > 0) fallasDetectadas.push(`<li><span class="font-bold text-slate-800 dark:text-white">${item.nombre}:</span> ${pifiasCamara.join(' / ')}</li>`);
 
                 const colorRed = item.estadoRed === 'Online' ? 'text-emerald-600 bg-emerald-100 dark:bg-emerald-900/30' : (item.estadoRed === 'Offline' ? 'text-red-600 bg-red-100 dark:bg-red-900/30' : 'text-gray-500');
                 const colorDisco = item.disco.includes('Normal') ? 'text-emerald-600 bg-emerald-100 dark:bg-emerald-900/30' : 'text-red-600 bg-red-100 dark:bg-red-900/30';
@@ -504,9 +491,7 @@
                 htmlAlertas = `
                     <div class="bg-red-50 dark:bg-red-900/10 border border-red-200 dark:border-red-800 p-4 rounded-lg">
                         <h4 class="font-black text-red-600 dark:text-red-500 mb-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-triangle-exclamation mr-1"></i> Resumen de Afectaciones:</h4>
-                        <ul class="list-disc list-inside text-xs text-red-600/80 dark:text-red-400/80 space-y-1.5 font-medium">
-                            ${fallasDetectadas.join('')}
-                        </ul>
+                        <ul class="list-disc list-inside text-xs text-red-600/80 dark:text-red-400/80 space-y-1.5 font-medium">${fallasDetectadas.join('')}</ul>
                     </div>`;
             } else {
                 htmlAlertas = `
@@ -521,7 +506,6 @@
 
             document.getElementById('modal-alertas').innerHTML = htmlAlertas;
             document.getElementById('modal-tbody').innerHTML = htmlFilas || `<tr><td colspan="4" class="p-4 text-center text-gray-400">No hay cámaras registradas.</td></tr>`;
-            
             document.getElementById('modal-detalle').classList.remove('hidden');
         }
 
@@ -549,7 +533,7 @@
                 
                 document.getElementById('kpi-sucursales-on').innerText = sucOn; 
                 document.getElementById('kpi-sucursales-tot').innerText = sucTot;
-                document.getElementById('kpi-dvrs-tot').innerText = totalDVRsFisicos; // Aquí se mostrará tu total de "19"
+                document.getElementById('kpi-dvrs-tot').innerText = totalDVRsFisicos;
                 document.getElementById('kpi-cam-on').innerText = camOn; 
                 document.getElementById('kpi-cam-tot').innerText = camTot;
                 document.getElementById('kpi-cam-off').innerText = (camTot - camOn); 
