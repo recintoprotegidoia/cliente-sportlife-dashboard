@@ -36,7 +36,7 @@
            REGLAS INFALIBLES PARA IMPRESIÓN DE TABLA CONSOLIDADA
            ========================================================================== */
         @media print {
-            @page { margin: 15mm; size: A4 portrait; }
+            @page { margin: 10mm; size: A4 portrait; }
             
             /* Fuerza TODO a blanco y negro corporativo */
             body { background: white !important; color: black !important; }
@@ -47,7 +47,7 @@
             #contenido-principal { display: none !important; }
             #modal-detalle { display: none !important; }
 
-            /* Si vamos a imprimir el consolidado, lo mostramos a pantalla completa */
+            /* Ajustes para que la tabla consolidada entre perfecta en el PDF */
             body.imprimiendo-consolidado #modal-consolidado {
                 display: block !important;
                 position: static !important;
@@ -57,9 +57,25 @@
                 overflow: visible !important;
                 padding: 0 !important;
             }
-            body.imprimiendo-consolidado table { width: 100% !important; border-collapse: collapse !important; margin-top: 20px; }
-            body.imprimiendo-consolidado th { background-color: #f3f4f6 !important; border: 1px solid #999 !important; color: black !important; font-size: 12px !important; padding: 8px !important; }
-            body.imprimiendo-consolidado td { border: 1px solid #ddd !important; color: black !important; font-size: 11px !important; padding: 8px !important; }
+            body.imprimiendo-consolidado .max-w-6xl {
+                max-width: 100% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            /* Esta regla soluciona que la tabla se salga del margen derecho */
+            body.imprimiendo-consolidado table { 
+                width: 100% !important; 
+                border-collapse: collapse !important; 
+                margin-top: 15px; 
+                table-layout: auto !important; 
+                white-space: normal !important; 
+            }
+            body.imprimiendo-consolidado th, body.imprimiendo-consolidado td { 
+                white-space: normal !important; 
+                word-wrap: break-word !important; 
+            }
+            body.imprimiendo-consolidado th { background-color: #f3f4f6 !important; border: 1px solid #999 !important; color: black !important; font-size: 11px !important; padding: 6px !important; }
+            body.imprimiendo-consolidado td { border: 1px solid #ddd !important; color: black !important; font-size: 10px !important; padding: 6px !important; }
             
             /* Quitar scrollbars de impresion */
             ::-webkit-scrollbar { display: none !important; }
@@ -70,6 +86,7 @@
 
     <div id="contenido-principal" class="max-w-[1400px] mx-auto space-y-6 relative">
         
+        <!-- HEADER PRINCIPAL -->
         <div class="premium-card p-4 md:p-6 flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="brand-logo-box p-3 rounded-xl flex items-center justify-center shadow-md">
                 <img src="./assets/logo-recinto-protegido.png" alt="Recinto Protegido" class="brand-logo-img" onerror="this.style.display='none'; document.getElementById('logo-fallback').classList.remove('hidden');">
@@ -96,6 +113,7 @@
             </div>
         </div>
 
+        <!-- KPIs GENERALES -->
         <div id="kpis-generales" class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="premium-card p-5 flex items-center justify-between">
                 <div>
@@ -127,6 +145,7 @@
             </div>
         </div>
 
+        <!-- BUSCADOR -->
         <div class="flex justify-between items-center mb-2">
             <h2 class="text-lg font-black text-slate-800 dark:text-white uppercase tracking-wide"><i class="fa-solid fa-map-location-dot mr-2 text-red-500"></i> Detalle por Sucursal</h2>
             <div class="relative w-full max-w-sm no-print">
@@ -135,11 +154,13 @@
             </div>
         </div>
 
+        <!-- CONTENEDOR DE TARJETAS SUCURSALES -->
         <div id="contenedor-sucursales" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 pb-24">
             <div class="col-span-full text-center py-10 text-slate-500"><i class="fa-solid fa-spinner fa-spin text-3xl mb-3"></i><br>Cargando información de infraestructura...</div>
         </div>
     </div>
 
+    <!-- BOTONES FLOTANTES DE ACCIÓN -->
     <div class="fixed bottom-6 right-6 z-40 flex flex-col gap-3 no-print">
         <button onclick="abrirConsolidado()" class="bg-slate-800 dark:bg-slate-700 text-white rounded-full px-5 py-3 shadow-2xl hover:bg-slate-900 transition font-bold uppercase tracking-wider flex items-center justify-center gap-2 border-2 border-slate-600">
             <i class="fa-solid fa-table-list text-xl"></i>
@@ -147,6 +168,7 @@
         </button>
     </div>
 
+    <!-- MODAL 1: REPORTE CONSOLIDADO -->
     <div id="modal-consolidado" class="fixed inset-0 z-50 hidden bg-white dark:bg-slate-950 overflow-y-auto">
         <div class="max-w-6xl mx-auto p-4 md:p-8">
             
@@ -161,17 +183,19 @@
                 </div>
             </div>
 
+            <!-- Cabecera de Impresión -->
             <div class="text-center mb-6 text-slate-900 dark:text-white">
                 <h1 class="text-xl md:text-2xl font-black uppercase tracking-widest" id="conso-title">GIMNASIOS SPORTLIFE</h1>
                 <p class="text-xs font-mono text-gray-500 mt-1">REPORTE GENERADO EL: <span id="conso-fecha"></span></p>
             </div>
 
+            <!-- Tabla Consolidada -->
             <div class="overflow-x-auto rounded-lg border border-gray-200 dark:border-slate-800 shadow-sm bg-white dark:bg-slate-900">
-                <table class="w-full text-left text-sm whitespace-nowrap">
+                <table class="w-full text-left text-sm">
                     <thead class="bg-gray-100 dark:bg-slate-800/80 border-b border-gray-200 dark:border-slate-700">
                         <tr>
                             <th class="p-3 text-slate-600 dark:text-slate-300 font-black uppercase tracking-wide">Sucursal</th>
-                            <th class="p-3 text-center text-slate-600 dark:text-slate-300 font-black uppercase tracking-wide">NVR (Central)</th>
+                            <th class="p-3 text-center text-slate-600 dark:text-slate-300 font-black uppercase tracking-wide">DVR (Central)</th>
                             <th class="p-3 text-center text-slate-600 dark:text-slate-300 font-black uppercase tracking-wide">Total Cámaras</th>
                             <th class="p-3 text-center text-emerald-600 dark:text-emerald-500 font-black uppercase tracking-wide">Cam. Online</th>
                             <th class="p-3 text-center text-red-600 dark:text-red-500 font-black uppercase tracking-wide">Cam. Offline</th>
@@ -179,16 +203,18 @@
                         </tr>
                     </thead>
                     <tbody id="tbody-consolidado" class="divide-y divide-gray-100 dark:divide-slate-800 text-slate-800 dark:text-slate-200">
-                        </tbody>
+                        <!-- Llenado por JS -->
+                    </tbody>
                 </table>
             </div>
             
-            <div class="mt-6 text-center text-[10px] text-gray-400 font-bold uppercase tracking-widest print:block">
+            <div class="mt-6 text-center text-[10px] text-gray-400 font-bold uppercase tracking-widest print:block hidden">
                 -- Documento generado automáticamente por sistema de monitoreo Recinto Protegido --
             </div>
         </div>
     </div>
 
+    <!-- MODAL 2: DETALLE ESPECÍFICO DE UNA SUCURSAL -->
     <div id="modal-detalle" class="fixed inset-0 z-50 hidden bg-black/80 flex items-center justify-center p-4 no-print" onclick="cerrarModalDetalle()">
         <div class="premium-card w-full max-w-5xl max-h-[90vh] flex flex-col shadow-2xl relative" onclick="event.stopPropagation()">
             <div class="px-6 py-4 border-b border-gray-200 dark:border-slate-800 flex justify-between items-center bg-gray-50 dark:bg-slate-900/80 rounded-t-xl">
@@ -206,7 +232,7 @@
                             <tr>
                                 <th class="p-3 text-slate-600 dark:text-slate-300">Recurso / Cámara</th>
                                 <th class="p-3 text-center text-slate-600 dark:text-slate-300">Conexión de Red</th>
-                                <th class="p-3 text-center text-slate-600 dark:text-slate-300">Estado Disco NVR</th>
+                                <th class="p-3 text-center text-slate-600 dark:text-slate-300">Estado Disco DVR</th>
                                 <th class="p-3 text-center text-slate-600 dark:text-slate-300">Estado Grabación</th>
                             </tr>
                         </thead>
@@ -241,7 +267,7 @@
         let sucursalesArray = [];
         let nombreClienteGlobal = 'GIMNASIOS SPORTLIFE';
 
-        // PROCESAMIENTO
+        // PROCESAMIENTO E INTELIGENCIA PARA DEDUCIR ESTADOS
         function procesarSucursales() {
             const mapa = {};
             dataHCPDevice.forEach(dev => {
@@ -294,7 +320,19 @@
                 }
             });
 
-            return Object.values(mapa).sort((a, b) => a.nombre.localeCompare(b.nombre));
+            // LÓGICA DE DEDUCCIÓN: Si el DVR es "Desconocido" pero tiene cámaras Online, asumimos que el DVR está Online.
+            let arrayResultante = Object.values(mapa);
+            arrayResultante.forEach(s => {
+                if (s.estadoEquipo === "Desconocido") {
+                    if (s.camarasOnline > 0) {
+                        s.estadoEquipo = "Online";
+                    } else if (s.camarasTotales > 0) {
+                        s.estadoEquipo = "Offline";
+                    }
+                }
+            });
+
+            return arrayResultante.sort((a, b) => a.nombre.localeCompare(b.nombre));
         }
 
         // RENDER TARJETAS
@@ -308,7 +346,7 @@
             }
 
             filtradas.forEach(s => {
-                const badgeNVR = s.estadoEquipo === 'Online' ? 'status-online' : (s.estadoEquipo === 'Offline' ? 'status-offline' : 'bg-gray-100 text-gray-500 dark:bg-slate-800 border border-gray-300 dark:border-slate-600');
+                const badgeDVR = s.estadoEquipo === 'Online' ? 'status-online' : (s.estadoEquipo === 'Offline' ? 'status-offline' : 'bg-gray-100 text-gray-500 dark:bg-slate-800 border border-gray-300 dark:border-slate-600');
                 const camOff = s.camarasTotales - s.camarasOnline;
                 const alertaCritica = (s.estadoEquipo === 'Offline' || camOff > 0 || s.alertasGrabacion > 0);
                 const borderCritico = alertaCritica ? 'border-t-4 border-red-500 dark:border-red-500' : 'border-t-4 border-emerald-500 dark:border-emerald-500';
@@ -327,7 +365,7 @@
 
                     <div class="flex items-center justify-between bg-gray-50 dark:bg-slate-800/50 p-2 rounded border border-gray-100 dark:border-slate-700">
                         <span class="text-xs font-bold text-slate-600 dark:text-slate-300">Equipo Principal:</span>
-                        <span class="px-2 py-0.5 rounded text-[10px] font-black tracking-wider uppercase ${badgeNVR}">NVR ${s.estadoEquipo}</span>
+                        <span class="px-2 py-0.5 rounded text-[10px] font-black tracking-wider uppercase ${badgeDVR}">DVR ${s.estadoEquipo}</span>
                     </div>
 
                     <div class="h-px w-full bg-gray-100 dark:bg-slate-800/50"></div>
@@ -363,8 +401,8 @@
 
             sucursalesArray.forEach(s => {
                 const isOnline = s.estadoEquipo === 'Online';
-                const textColorNVR = isOnline ? 'text-emerald-600 dark:text-emerald-500' : 'text-red-600 dark:text-red-500';
-                const bgBadgeNVR = isOnline ? 'bg-emerald-100 dark:bg-emerald-900/30' : 'bg-red-100 dark:bg-red-900/30';
+                const textColorDVR = isOnline ? 'text-emerald-600 dark:text-emerald-500' : 'text-red-600 dark:text-red-500';
+                const bgBadgeDVR = isOnline ? 'bg-emerald-100 dark:bg-emerald-900/30' : 'bg-red-100 dark:bg-red-900/30';
                 
                 const offCam = s.camarasTotales - s.camarasOnline;
                 const txtOffCam = offCam > 0 ? 'text-red-600 font-bold dark:text-red-500' : 'text-gray-400 dark:text-slate-500';
@@ -373,7 +411,7 @@
                 html += `
                 <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50 transition border-b border-gray-100 dark:border-slate-800">
                     <td class="p-3 font-semibold text-xs text-slate-900 dark:text-white">${s.nombre}</td>
-                    <td class="p-3 text-center"><span class="px-2 py-0.5 rounded text-[10px] font-black uppercase ${textColorNVR} ${bgBadgeNVR}">${s.estadoEquipo}</span></td>
+                    <td class="p-3 text-center"><span class="px-2 py-0.5 rounded text-[10px] font-black uppercase ${textColorDVR} ${bgBadgeDVR}">${s.estadoEquipo}</span></td>
                     <td class="p-3 text-center font-mono font-bold">${s.camarasTotales}</td>
                     <td class="p-3 text-center font-mono font-bold text-emerald-600 dark:text-emerald-500">${s.camarasOnline}</td>
                     <td class="p-3 text-center font-mono ${txtOffCam}">${offCam}</td>
@@ -392,13 +430,9 @@
         }
 
         function imprimirConsolidado() {
-            // Ponemos el body en modo impresion consolidado
             document.body.classList.add('imprimiendo-consolidado');
             window.print();
-            // Lo quitamos despues de lanzar la impresion
-            setTimeout(() => {
-                document.body.classList.remove('imprimiendo-consolidado');
-            }, 1000);
+            setTimeout(() => { document.body.classList.remove('imprimiendo-consolidado'); }, 1000);
         }
 
         // --- FUNCIONES DETALLE ESPECIFICO ---
@@ -430,7 +464,7 @@
                     </tr>
                 `;
             });
-            document.getElementById('modal-alertas').innerHTML = ''; // Se quito texto rojo de alertas para simplificar
+            document.getElementById('modal-alertas').innerHTML = ''; 
             document.getElementById('modal-tbody').innerHTML = htmlFilas || `<tr><td colspan="4" class="p-4 text-center text-gray-400">No hay cámaras registradas.</td></tr>`;
             
             document.getElementById('modal-detalle').classList.remove('hidden');
@@ -452,7 +486,6 @@
                 }
                 sucursalesArray = procesarSucursales();
                 
-                // Calculos de KPI superior
                 let nvrOn = 0, nvrTot = sucursalesArray.length; let camOn = 0, camTot = 0; let recFails = 0;
                 sucursalesArray.forEach(s => { if (s.estadoEquipo === 'Online') nvrOn++; camOn += s.camarasOnline; camTot += s.camarasTotales; recFails += s.alertasGrabacion; });
                 document.getElementById('kpi-sucursales-on').innerText = nvrOn; document.getElementById('kpi-sucursales-tot').innerText = nvrTot;
