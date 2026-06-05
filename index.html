@@ -22,6 +22,8 @@
         .dark .status-online { background-color: rgba(16, 185, 129, 0.15) !important; color: #34d399 !important; }
         .status-offline { background-color: #fde8e8; color: #f05252; border: 1px solid rgba(239,68,68,0.3); }
         .dark .status-offline { background-color: rgba(239, 68, 68, 0.15) !important; color: #f87171 !important; }
+        .status-warning { background-color: #ffedd5; color: #ea580c; border: 1px solid rgba(249,115,22,0.3); }
+        .dark .status-warning { background-color: rgba(234, 88, 12, 0.15) !important; color: #fb923c !important; }
         
         .brand-logo-box { background: #0a060b; border: 1px solid rgba(255,255,255,0.10); }
         .brand-logo-img { display: block; width: 11rem; height: auto; object-fit: contain; }
@@ -32,52 +34,24 @@
         .dark ::-webkit-scrollbar-thumb { background: #333; }
         ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
 
-        /* ==========================================================================
-           REGLAS INFALIBLES PARA IMPRESIÓN DE TABLA CONSOLIDADA
-           ========================================================================== */
+        /* REGLAS PARA IMPRESIÓN */
         @media print {
             @page { margin: 10mm; size: A4 portrait; }
-            
-            /* Fuerza TODO a blanco y negro corporativo */
             body { background: white !important; color: black !important; }
             * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; color-adjust: exact !important; }
             
-            /* Ocultar la app por detrás */
             .no-print { display: none !important; }
             #contenido-principal { display: none !important; }
             #modal-detalle { display: none !important; }
 
-            /* Ajustes para que la tabla consolidada entre perfecta en el PDF */
             body.imprimiendo-consolidado #modal-consolidado {
-                display: block !important;
-                position: static !important;
-                background: white !important;
-                color: black !important;
-                height: auto !important;
-                overflow: visible !important;
-                padding: 0 !important;
+                display: block !important; position: static !important; background: white !important; color: black !important; height: auto !important; overflow: visible !important; padding: 0 !important;
             }
-            body.imprimiendo-consolidado .max-w-6xl {
-                max-width: 100% !important;
-                margin: 0 !important;
-                padding: 0 !important;
-            }
-            /* Esta regla soluciona que la tabla se salga del margen derecho */
-            body.imprimiendo-consolidado table { 
-                width: 100% !important; 
-                border-collapse: collapse !important; 
-                margin-top: 15px; 
-                table-layout: auto !important; 
-                white-space: normal !important; 
-            }
-            body.imprimiendo-consolidado th, body.imprimiendo-consolidado td { 
-                white-space: normal !important; 
-                word-wrap: break-word !important; 
-            }
+            body.imprimiendo-consolidado .max-w-6xl { max-width: 100% !important; margin: 0 !important; padding: 0 !important; }
+            body.imprimiendo-consolidado table { width: 100% !important; border-collapse: collapse !important; margin-top: 15px; table-layout: auto !important; white-space: normal !important; }
+            body.imprimiendo-consolidado th, body.imprimiendo-consolidado td { white-space: normal !important; word-wrap: break-word !important; }
             body.imprimiendo-consolidado th { background-color: #f3f4f6 !important; border: 1px solid #999 !important; color: black !important; font-size: 11px !important; padding: 6px !important; }
             body.imprimiendo-consolidado td { border: 1px solid #ddd !important; color: black !important; font-size: 10px !important; padding: 6px !important; }
-            
-            /* Quitar scrollbars de impresion */
             ::-webkit-scrollbar { display: none !important; }
         }
     </style>
@@ -86,7 +60,6 @@
 
     <div id="contenido-principal" class="max-w-[1400px] mx-auto space-y-6 relative">
         
-        <!-- HEADER PRINCIPAL -->
         <div class="premium-card p-4 md:p-6 flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="brand-logo-box p-3 rounded-xl flex items-center justify-center shadow-md">
                 <img src="./assets/logo-recinto-protegido.png" alt="Recinto Protegido" class="brand-logo-img" onerror="this.style.display='none'; document.getElementById('logo-fallback').classList.remove('hidden');">
@@ -113,12 +86,12 @@
             </div>
         </div>
 
-        <!-- KPIs GENERALES -->
         <div id="kpis-generales" class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div class="premium-card p-5 flex items-center justify-between">
+            <div class="premium-card p-5 flex items-center justify-between relative">
                 <div>
                     <p class="text-[10px] md:text-xs font-bold uppercase tracking-wider text-gray-400 dark:text-slate-400">Sucursales Online</p>
                     <div class="text-3xl font-black text-emerald-500 mt-1"><span id="kpi-sucursales-on">0</span><span class="text-sm text-slate-400 font-medium"> / <span id="kpi-sucursales-tot">0</span></span></div>
+                    <p class="text-[9px] font-bold text-slate-500 mt-1 absolute bottom-2"><span id="kpi-dvrs-tot">0</span> DVRs Físicos Vinculados</p>
                 </div>
                 <div class="h-12 w-12 rounded-full bg-emerald-50 dark:bg-emerald-900/20 flex items-center justify-center text-emerald-500"><i class="fa-solid fa-server text-xl"></i></div>
             </div>
@@ -145,7 +118,6 @@
             </div>
         </div>
 
-        <!-- BUSCADOR -->
         <div class="flex justify-between items-center mb-2">
             <h2 class="text-lg font-black text-slate-800 dark:text-white uppercase tracking-wide"><i class="fa-solid fa-map-location-dot mr-2 text-red-500"></i> Detalle por Sucursal</h2>
             <div class="relative w-full max-w-sm no-print">
@@ -154,13 +126,11 @@
             </div>
         </div>
 
-        <!-- CONTENEDOR DE TARJETAS SUCURSALES -->
         <div id="contenedor-sucursales" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 pb-24">
             <div class="col-span-full text-center py-10 text-slate-500"><i class="fa-solid fa-spinner fa-spin text-3xl mb-3"></i><br>Cargando información de infraestructura...</div>
         </div>
     </div>
 
-    <!-- BOTONES FLOTANTES DE ACCIÓN -->
     <div class="fixed bottom-6 right-6 z-40 flex flex-col gap-3 no-print">
         <button onclick="abrirConsolidado()" class="bg-slate-800 dark:bg-slate-700 text-white rounded-full px-5 py-3 shadow-2xl hover:bg-slate-900 transition font-bold uppercase tracking-wider flex items-center justify-center gap-2 border-2 border-slate-600">
             <i class="fa-solid fa-table-list text-xl"></i>
@@ -168,10 +138,8 @@
         </button>
     </div>
 
-    <!-- MODAL 1: REPORTE CONSOLIDADO -->
     <div id="modal-consolidado" class="fixed inset-0 z-50 hidden bg-white dark:bg-slate-950 overflow-y-auto">
         <div class="max-w-6xl mx-auto p-4 md:p-8">
-            
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 border-b border-gray-200 dark:border-slate-800 pb-4 no-print gap-4">
                 <div>
                     <h2 class="text-2xl font-black text-slate-800 dark:text-white uppercase tracking-tight"><i class="fa-solid fa-table-list text-red-500 mr-2"></i> Reporte Consolidado</h2>
@@ -183,13 +151,11 @@
                 </div>
             </div>
 
-            <!-- Cabecera de Impresión -->
             <div class="text-center mb-6 text-slate-900 dark:text-white">
                 <h1 class="text-xl md:text-2xl font-black uppercase tracking-widest" id="conso-title">GIMNASIOS SPORTLIFE</h1>
                 <p class="text-xs font-mono text-gray-500 mt-1">REPORTE GENERADO EL: <span id="conso-fecha"></span></p>
             </div>
 
-            <!-- Tabla Consolidada -->
             <div class="overflow-x-auto rounded-lg border border-gray-200 dark:border-slate-800 shadow-sm bg-white dark:bg-slate-900">
                 <table class="w-full text-left text-sm">
                     <thead class="bg-gray-100 dark:bg-slate-800/80 border-b border-gray-200 dark:border-slate-700">
@@ -202,19 +168,12 @@
                             <th class="p-3 text-center text-orange-600 dark:text-orange-500 font-black uppercase tracking-wide">Alertas Grabación</th>
                         </tr>
                     </thead>
-                    <tbody id="tbody-consolidado" class="divide-y divide-gray-100 dark:divide-slate-800 text-slate-800 dark:text-slate-200">
-                        <!-- Llenado por JS -->
-                    </tbody>
+                    <tbody id="tbody-consolidado" class="divide-y divide-gray-100 dark:divide-slate-800 text-slate-800 dark:text-slate-200"></tbody>
                 </table>
-            </div>
-            
-            <div class="mt-6 text-center text-[10px] text-gray-400 font-bold uppercase tracking-widest print:block hidden">
-                -- Documento generado automáticamente por sistema de monitoreo Recinto Protegido --
             </div>
         </div>
     </div>
 
-    <!-- MODAL 2: DETALLE ESPECÍFICO DE UNA SUCURSAL -->
     <div id="modal-detalle" class="fixed inset-0 z-50 hidden bg-black/80 flex items-center justify-center p-4 no-print" onclick="cerrarModalDetalle()">
         <div class="premium-card w-full max-w-5xl max-h-[90vh] flex flex-col shadow-2xl relative" onclick="event.stopPropagation()">
             <div class="px-6 py-4 border-b border-gray-200 dark:border-slate-800 flex justify-between items-center bg-gray-50 dark:bg-slate-900/80 rounded-t-xl">
@@ -265,36 +224,62 @@
         // DATA
         let dataHCPDevice = []; let dataHCPResource = []; let dataHCPRecording = [];
         let sucursalesArray = [];
+        let totalDVRsFisicos = 0;
         let nombreClienteGlobal = 'GIMNASIOS SPORTLIFE';
 
-        // PROCESAMIENTO E INTELIGENCIA PARA DEDUCIR ESTADOS
+        // LÓGICA DE LIMPIEZA INTELIGENTE PARA NOMBRES HIKVISION
+        function cleanBranchName(name) {
+            return name.replace(/\s*\(.*?\)\s*/g, '') // Elimina códigos entre paréntesis
+                       .replace(/^CA\s*\d+(?:-\d+)?\s+/i, '') // Elimina "CA 0085-1 ", "CA 0078 ", etc.
+                       .trim().toUpperCase();
+        }
+
+        // MOTOR DE AGRUPACIÓN (Une múltiples DVRs en 1 sucursal)
         function procesarSucursales() {
             const mapa = {};
+            totalDVRsFisicos = 0;
+
+            // 1. Procesar Equipos (DVRs)
             dataHCPDevice.forEach(dev => {
                 let nombreBruto = (dev["Name"] || "").trim();
                 if (!nombreBruto || nombreBruto === "0" || nombreBruto.toLowerCase().includes("device")) return;
                 
-                let nombreLimpio = nombreBruto.replace(/\s*\(.*?\)\s*/g, '').trim().toUpperCase();
-                mapa[nombreLimpio] = {
-                    nombre: nombreBruto.toUpperCase(),
-                    nombreParaFiltro: nombreLimpio,
-                    estadoEquipo: String(dev["Current Status"] || "").toLowerCase() === "online" ? "Online" : "Offline",
-                    ultimaDesconexion: dev["Latest Offline Time"] || "--",
-                    tiempoOffline: dev["Total Offline Duration"] || "--",
-                    camarasTotales: 0, camarasOnline: 0, alertasGrabacion: 0,
-                    detalleCamaras: [], detalleGrabaciones: []
-                };
+                let nombreLimpio = cleanBranchName(nombreBruto);
+                let estado = String(dev["Current Status"] || "").toLowerCase() === "online" ? "Online" : "Offline";
+
+                if (!mapa[nombreLimpio]) {
+                    mapa[nombreLimpio] = {
+                        nombre: nombreLimpio, // Este es el nombre consolidado (Ej. "SPORTLIFE PEÑALOLEN")
+                        nombresBrutos: [], // Guardamos los originales para hacer cruces
+                        equipos: [], // Aquí guardamos los DVRs (puede haber 1, 2 o más)
+                        ultimaDesconexion: dev["Latest Offline Time"] || "--",
+                        camarasTotales: 0, camarasOnline: 0, alertasGrabacion: 0,
+                        detalleCamaras: [], detalleGrabaciones: []
+                    };
+                }
+                
+                mapa[nombreLimpio].nombresBrutos.push(nombreBruto.toUpperCase());
+                mapa[nombreLimpio].equipos.push({ nombre: nombreBruto, estado: estado });
+                totalDVRsFisicos++;
             });
 
+            // 2. Procesar Cámaras
             dataHCPResource.forEach(cam => {
                 let areaBruta = (cam["Area"] || "").trim();
                 if (!areaBruta || areaBruta === "0") return;
-                let areaLimpia = areaBruta.replace(/\s*\(.*?\)\s*/g, '').trim().toUpperCase();
                 
-                let match = Object.keys(mapa).find(k => k.includes(areaLimpia) || areaLimpia.includes(k));
+                let areaLimpia = cleanBranchName(areaBruta);
+                let match = null;
+
+                if (mapa[areaLimpia]) {
+                    match = areaLimpia;
+                } else {
+                    match = Object.keys(mapa).find(k => k.includes(areaLimpia) || areaLimpia.includes(k));
+                }
+
                 if (!match) {
                     match = areaLimpia;
-                    mapa[match] = { nombre: areaBruta.toUpperCase(), nombreParaFiltro: areaLimpia, estadoEquipo: "Desconocido", ultimaDesconexion: "--", tiempoOffline: "--", camarasTotales: 0, camarasOnline: 0, alertasGrabacion: 0, detalleCamaras: [], detalleGrabaciones: [] };
+                    mapa[match] = { nombre: areaLimpia, nombresBrutos: [areaBruta.toUpperCase()], equipos: [], ultimaDesconexion: "--", camarasTotales: 0, camarasOnline: 0, alertasGrabacion: 0, detalleCamaras: [], detalleGrabaciones: [] };
                 }
 
                 mapa[match].camarasTotales++;
@@ -304,12 +289,20 @@
                 mapa[match].detalleCamaras.push({ nombre: cam["Name"] || "--", estado: estadoRed });
             });
 
+            // 3. Procesar Grabaciones
             dataHCPRecording.forEach(rec => {
                 let areaBruta = (rec["Area"] || "").trim();
                 if (!areaBruta) return;
-                let areaLimpia = areaBruta.replace(/\s*\(.*?\)\s*/g, '').trim().toUpperCase();
                 
-                let match = Object.keys(mapa).find(k => k.includes(areaLimpia) || areaLimpia.includes(k));
+                let areaLimpia = cleanBranchName(areaBruta);
+                let match = null;
+
+                if (mapa[areaLimpia]) {
+                    match = areaLimpia;
+                } else {
+                    match = Object.keys(mapa).find(k => k.includes(areaLimpia) || areaLimpia.includes(k));
+                }
+
                 if (match) {
                     let disco = String(rec["Storage Type"] || "--");
                     let grab = String(rec["Recording Status"] || "--");
@@ -320,15 +313,23 @@
                 }
             });
 
-            // LÓGICA DE DEDUCCIÓN: Si el DVR es "Desconocido" pero tiene cámaras Online, asumimos que el DVR está Online.
+            // 4. Lógica de Deducción Global del estado de la Sucursal
             let arrayResultante = Object.values(mapa);
             arrayResultante.forEach(s => {
-                if (s.estadoEquipo === "Desconocido") {
-                    if (s.camarasOnline > 0) {
-                        s.estadoEquipo = "Online";
-                    } else if (s.camarasTotales > 0) {
-                        s.estadoEquipo = "Offline";
-                    }
+                if (s.equipos.length === 0) {
+                    // Si no tiene DVR registrado, deducimos por sus cámaras
+                    if (s.camarasOnline > 0) s.estadoGlobal = "Online";
+                    else if (s.camarasTotales > 0) s.estadoGlobal = "Offline";
+                    else s.estadoGlobal = "Desconocido";
+                } else if (s.equipos.length === 1) {
+                    // 1 solo DVR
+                    s.estadoGlobal = s.equipos[0].estado;
+                } else {
+                    // Tiene 2 o más DVRs. Evaluamos todos.
+                    let onlineCount = s.equipos.filter(e => e.estado === 'Online').length;
+                    if (onlineCount === s.equipos.length) s.estadoGlobal = "Online";
+                    else if (onlineCount === 0) s.estadoGlobal = "Offline";
+                    else s.estadoGlobal = "Offline Parcial"; // Ej. 1 prendido, 1 apagado
                 }
             });
 
@@ -339,16 +340,23 @@
         function renderizarTarjetas(filtro = "") {
             const contenedor = document.getElementById('contenedor-sucursales');
             let html = "";
-            let filtradas = sucursalesArray.filter(s => s.nombre.toLowerCase().includes(filtro.toLowerCase()) || s.estadoEquipo.toLowerCase().includes(filtro.toLowerCase()));
+            let filtradas = sucursalesArray.filter(s => s.nombre.toLowerCase().includes(filtro.toLowerCase()) || s.estadoGlobal.toLowerCase().includes(filtro.toLowerCase()));
 
             if (filtradas.length === 0) {
                 contenedor.innerHTML = `<div class="col-span-full text-center py-10 text-slate-500 font-bold">No se encontraron sucursales para "${filtro}".</div>`; return;
             }
 
             filtradas.forEach(s => {
-                const badgeDVR = s.estadoEquipo === 'Online' ? 'status-online' : (s.estadoEquipo === 'Offline' ? 'status-offline' : 'bg-gray-100 text-gray-500 dark:bg-slate-800 border border-gray-300 dark:border-slate-600');
+                let badgeDVR = '';
+                if (s.estadoGlobal === 'Online') badgeDVR = 'status-online';
+                else if (s.estadoGlobal === 'Offline Parcial') badgeDVR = 'status-warning';
+                else badgeDVR = 'status-offline';
+
+                let numDVRs = s.equipos.length > 0 ? s.equipos.length : 1;
+                let txtNombresDVR = numDVRs > 1 ? `${numDVRs} DVRs` : `DVR`;
+
                 const camOff = s.camarasTotales - s.camarasOnline;
-                const alertaCritica = (s.estadoEquipo === 'Offline' || camOff > 0 || s.alertasGrabacion > 0);
+                const alertaCritica = (s.estadoGlobal.includes('Offline') || camOff > 0 || s.alertasGrabacion > 0);
                 const borderCritico = alertaCritica ? 'border-t-4 border-red-500 dark:border-red-500' : 'border-t-4 border-emerald-500 dark:border-emerald-500';
 
                 html += `
@@ -364,8 +372,8 @@
                     </div>
 
                     <div class="flex items-center justify-between bg-gray-50 dark:bg-slate-800/50 p-2 rounded border border-gray-100 dark:border-slate-700">
-                        <span class="text-xs font-bold text-slate-600 dark:text-slate-300">Equipo Principal:</span>
-                        <span class="px-2 py-0.5 rounded text-[10px] font-black tracking-wider uppercase ${badgeDVR}">DVR ${s.estadoEquipo}</span>
+                        <span class="text-xs font-bold text-slate-600 dark:text-slate-300">Equipos de Grabación:</span>
+                        <span class="px-2 py-0.5 rounded text-[10px] font-black tracking-wider uppercase ${badgeDVR}">${txtNombresDVR} ${s.estadoGlobal}</span>
                     </div>
 
                     <div class="h-px w-full bg-gray-100 dark:bg-slate-800/50"></div>
@@ -400,10 +408,15 @@
             document.getElementById('conso-fecha').innerText = new Date().toLocaleString('es-CL');
 
             sucursalesArray.forEach(s => {
-                const isOnline = s.estadoEquipo === 'Online';
-                const textColorDVR = isOnline ? 'text-emerald-600 dark:text-emerald-500' : 'text-red-600 dark:text-red-500';
-                const bgBadgeDVR = isOnline ? 'bg-emerald-100 dark:bg-emerald-900/30' : 'bg-red-100 dark:bg-red-900/30';
+                let isOnline = s.estadoGlobal === 'Online';
+                let isWarning = s.estadoGlobal === 'Offline Parcial';
                 
+                let textColorDVR = isOnline ? 'text-emerald-600 dark:text-emerald-500' : (isWarning ? 'text-orange-600 dark:text-orange-500' : 'text-red-600 dark:text-red-500');
+                let bgBadgeDVR = isOnline ? 'bg-emerald-100 dark:bg-emerald-900/30' : (isWarning ? 'bg-orange-100 dark:bg-orange-900/30' : 'bg-red-100 dark:bg-red-900/30');
+                
+                let numDVRs = s.equipos.length > 0 ? s.equipos.length : 1;
+                let txtNombresDVR = numDVRs > 1 ? `${numDVRs} DVRs` : `1 DVR`;
+
                 const offCam = s.camarasTotales - s.camarasOnline;
                 const txtOffCam = offCam > 0 ? 'text-red-600 font-bold dark:text-red-500' : 'text-gray-400 dark:text-slate-500';
                 const txtAlerts = s.alertasGrabacion > 0 ? 'text-orange-600 font-bold dark:text-orange-500' : 'text-gray-400 dark:text-slate-500';
@@ -411,7 +424,7 @@
                 html += `
                 <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50 transition border-b border-gray-100 dark:border-slate-800">
                     <td class="p-3 font-semibold text-xs text-slate-900 dark:text-white">${s.nombre}</td>
-                    <td class="p-3 text-center"><span class="px-2 py-0.5 rounded text-[10px] font-black uppercase ${textColorDVR} ${bgBadgeDVR}">${s.estadoEquipo}</span></td>
+                    <td class="p-3 text-center"><span class="px-2 py-0.5 rounded text-[10px] font-black uppercase ${textColorDVR} ${bgBadgeDVR}">${txtNombresDVR} ${s.estadoGlobal}</span></td>
                     <td class="p-3 text-center font-mono font-bold">${s.camarasTotales}</td>
                     <td class="p-3 text-center font-mono font-bold text-emerald-600 dark:text-emerald-500">${s.camarasOnline}</td>
                     <td class="p-3 text-center font-mono ${txtOffCam}">${offCam}</td>
@@ -450,7 +463,28 @@
             const listadoFinal = Object.values(mergeCamaras).sort((a, b) => a.nombre.localeCompare(b.nombre));
 
             let htmlFilas = '';
+            let fallasDetectadas = [];
+
+            // Evaluamos los DVRs para las alertas
+            if (suc.estadoGlobal === 'Offline' || suc.estadoGlobal === 'Offline Parcial') {
+                let fallos = suc.equipos.filter(e => e.estado === 'Offline').map(e => e.nombre);
+                if (fallos.length > 0) {
+                    fallasDetectadas.push(`<li><span class="font-bold">Equipo DVR:</span> ${fallos.join(', ')} apagados o sin conexión.</li>`);
+                } else {
+                    fallasDetectadas.push(`<li><span class="font-bold">Equipo DVR:</span> Apagado o sin conexión a red.</li>`);
+                }
+            }
+
             listadoFinal.forEach(item => {
+                let pifiasCamara = [];
+                if (item.estadoRed === 'Offline') pifiasCamara.push('Cámara desconectada');
+                if (item.disco.toLowerCase().includes('falla')) pifiasCamara.push('Soporte de almacenamiento (Disco) presenta falla física');
+                if (item.grabacion.toLowerCase().includes('falla') || item.grabacion.toLowerCase().includes('sin datos')) pifiasCamara.push('Pérdida de grabación de imágenes');
+                
+                if (pifiasCamara.length > 0) {
+                    fallasDetectadas.push(`<li><span class="font-bold text-slate-800 dark:text-white">${item.nombre}:</span> ${pifiasCamara.join(' / ')}</li>`);
+                }
+
                 const colorRed = item.estadoRed === 'Online' ? 'text-emerald-600 bg-emerald-100 dark:bg-emerald-900/30' : (item.estadoRed === 'Offline' ? 'text-red-600 bg-red-100 dark:bg-red-900/30' : 'text-gray-500');
                 const colorDisco = item.disco.includes('Normal') ? 'text-emerald-600 bg-emerald-100 dark:bg-emerald-900/30' : 'text-red-600 bg-red-100 dark:bg-red-900/30';
                 const colorGrab = item.enFallaGrabacion ? 'text-red-600 bg-red-100 dark:bg-red-900/30' : 'text-emerald-600 bg-emerald-100 dark:bg-emerald-900/30';
@@ -464,7 +498,28 @@
                     </tr>
                 `;
             });
-            document.getElementById('modal-alertas').innerHTML = ''; 
+
+            let htmlAlertas = '';
+            if (fallasDetectadas.length > 0) {
+                htmlAlertas = `
+                    <div class="bg-red-50 dark:bg-red-900/10 border border-red-200 dark:border-red-800 p-4 rounded-lg">
+                        <h4 class="font-black text-red-600 dark:text-red-500 mb-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-triangle-exclamation mr-1"></i> Resumen de Afectaciones:</h4>
+                        <ul class="list-disc list-inside text-xs text-red-600/80 dark:text-red-400/80 space-y-1.5 font-medium">
+                            ${fallasDetectadas.join('')}
+                        </ul>
+                    </div>`;
+            } else {
+                htmlAlertas = `
+                    <div class="bg-emerald-50 dark:bg-emerald-900/10 border border-emerald-200 dark:border-emerald-800 p-4 rounded-lg flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-2xl text-emerald-500"></i>
+                        <div>
+                            <h4 class="font-black text-emerald-600 dark:text-emerald-500 text-sm uppercase tracking-wider">Sistema Óptimo</h4>
+                            <p class="text-xs text-emerald-600/80 dark:text-emerald-400/80 font-medium">Todos los equipos, discos y cámaras de esta sucursal operan con normalidad.</p>
+                        </div>
+                    </div>`;
+            }
+
+            document.getElementById('modal-alertas').innerHTML = htmlAlertas;
             document.getElementById('modal-tbody').innerHTML = htmlFilas || `<tr><td colspan="4" class="p-4 text-center text-gray-400">No hay cámaras registradas.</td></tr>`;
             
             document.getElementById('modal-detalle').classList.remove('hidden');
@@ -486,11 +541,19 @@
                 }
                 sucursalesArray = procesarSucursales();
                 
-                let nvrOn = 0, nvrTot = sucursalesArray.length; let camOn = 0, camTot = 0; let recFails = 0;
-                sucursalesArray.forEach(s => { if (s.estadoEquipo === 'Online') nvrOn++; camOn += s.camarasOnline; camTot += s.camarasTotales; recFails += s.alertasGrabacion; });
-                document.getElementById('kpi-sucursales-on').innerText = nvrOn; document.getElementById('kpi-sucursales-tot').innerText = nvrTot;
-                document.getElementById('kpi-cam-on').innerText = camOn; document.getElementById('kpi-cam-tot').innerText = camTot;
-                document.getElementById('kpi-cam-off').innerText = (camTot - camOn); document.getElementById('kpi-rec-fail').innerText = recFails;
+                let sucOn = 0, sucTot = sucursalesArray.length; let camOn = 0, camTot = 0; let recFails = 0;
+                sucursalesArray.forEach(s => { 
+                    if (s.estadoGlobal === 'Online' || s.estadoGlobal === 'Offline Parcial') sucOn++; 
+                    camOn += s.camarasOnline; camTot += s.camarasTotales; recFails += s.alertasGrabacion; 
+                });
+                
+                document.getElementById('kpi-sucursales-on').innerText = sucOn; 
+                document.getElementById('kpi-sucursales-tot').innerText = sucTot;
+                document.getElementById('kpi-dvrs-tot').innerText = totalDVRsFisicos; // Aquí se mostrará tu total de "19"
+                document.getElementById('kpi-cam-on').innerText = camOn; 
+                document.getElementById('kpi-cam-tot').innerText = camTot;
+                document.getElementById('kpi-cam-off').innerText = (camTot - camOn); 
+                document.getElementById('kpi-rec-fail').innerText = recFails;
 
                 renderizarTarjetas(document.getElementById('buscador').value);
             } catch (error) { console.error("Error:", error); }
