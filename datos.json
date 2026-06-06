@@ -1,6 +1,6 @@
 {
   "cliente": "GIMNASIOS SPORTLIFE",
-  "ultima_actualizacion": "05-06-2026, 04:59:34 p. m.",
+  "ultima_actualizacion": "06-06-2026, 08:21:42 a. m.",
   "registros": [
     {
       "Name": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
@@ -78,7 +78,7 @@
       "Name": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:15:59",
-      "Total Offline Duration": "09:44:01"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290",
@@ -95,8 +95,8 @@
     {
       "Name": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:03:15",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:04:17",
+      "Total Offline Duration": "02:55:43"
     },
     {
       "Name": "CA 0215 SPORTLIFE VINA DEL MAR",
@@ -194,7 +194,7 @@
       "Name": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:15:59",
-      "Total Offline Duration": "09:44:01"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290",
@@ -211,8 +211,8 @@
     {
       "Name": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:03:15",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:04:17",
+      "Total Offline Duration": "02:55:43"
     },
     {
       "Name": "CA 0215 SPORTLIFE VINA DEL MAR",
@@ -245,8 +245,8 @@
       "Name": "3ER NIVEL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "acceso camarin hombres",
@@ -259,50 +259,50 @@
       "Name": "AREA  PESAS",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "AREA DE TROTADORA",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "AREA MANCUERNAS",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "AREA MULTIFUNCIONAL PB",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "AREA PB",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "AREA PB 02",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "AREA PB 03",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "barras",
@@ -351,7 +351,7 @@
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 04:27:24",
-      "Total Offline Duration": "00:06:00"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 02",
@@ -638,7 +638,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "Camera 16",
@@ -651,8 +651,8 @@
       "Name": "Camera 16",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "Camera 21",
@@ -763,22 +763,22 @@
       "Name": "ENTRADA PRINCIPAL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "ESCALA 2 a 3 NIVEL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "ESCALA PB",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "escalera",
@@ -953,7 +953,7 @@
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 04:33:30",
-      "Total Offline Duration": "00:02:59"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "maquina 3",
@@ -1002,14 +1002,14 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "maquinas 2",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "maquinas 2",
@@ -1023,21 +1023,21 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "maquinas 4",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "maquinas 5",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "mauina 3",
@@ -1093,7 +1093,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "oficina",
@@ -1149,21 +1149,21 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "OFINCINA",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "pasillo",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "pasillo",
@@ -1219,7 +1219,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "pasillo 2",
@@ -1303,7 +1303,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "pesas 1",
@@ -1394,7 +1394,7 @@
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 04:27:24",
-      "Total Offline Duration": "00:03:01"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "picsina",
@@ -1436,7 +1436,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "recepcion",
@@ -1498,8 +1498,8 @@
       "Name": "RECEPCION 02",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "Recepcion 1",
@@ -1540,8 +1540,8 @@
       "Name": "RECEPION",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "sala .1",
@@ -1765,7 +1765,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "sala de spinning",
@@ -1793,7 +1793,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "sala funcional",
@@ -1856,7 +1856,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "sala multiuso",
@@ -1911,8 +1911,8 @@
       "Name": "spinning",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-13 13:39:29",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 22:56:18",
+      "Total Offline Duration": "00:06:02"
     },
     {
       "Name": "spinning",
@@ -1932,8 +1932,8 @@
       "Name": "SPINNING",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-26 21:00:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-05 21:01:24",
+      "Total Offline Duration": "02:58:36"
     },
     {
       "Name": "Terraza 1",
@@ -1961,7 +1961,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Offline",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "09:46:58"
+      "Total Offline Duration": "24:00:00"
     },
     {
       "Name": "torniquetes",
@@ -2114,8 +2114,8 @@
     {
       "Name": "3ER NIVEL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "acceso camarin hombres",
@@ -2126,44 +2126,44 @@
     {
       "Name": "AREA  PESAS",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "AREA DE TROTADORA",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "AREA MANCUERNAS",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "AREA MULTIFUNCIONAL PB",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "AREA PB",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "AREA PB 02",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "AREA PB 03",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "barras",
@@ -2558,20 +2558,20 @@
     {
       "Name": "ENTRADA PRINCIPAL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "ESCALA 2 a 3 NIVEL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "ESCALA PB",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "escalera",
@@ -2894,8 +2894,8 @@
     {
       "Name": "OFINCINA",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "pasillo",
@@ -3224,8 +3224,8 @@
     {
       "Name": "RECEPION",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "sala .1",
@@ -3560,8 +3560,8 @@
     {
       "Name": "SPINNING",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "Terraza 1",
