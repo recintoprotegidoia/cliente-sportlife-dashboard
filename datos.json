@@ -1,6 +1,6 @@
 {
   "cliente": "GIMNASIOS SPORTLIFE",
-  "ultima_actualizacion": "11-06-2026, 08:38:35 a. m.",
+  "ultima_actualizacion": "12-06-2026, 08:41:14 a. m.",
   "registros": [
     {
       "Name": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
@@ -54,7 +54,7 @@
       "Name": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:43"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
@@ -78,7 +78,7 @@
       "Name": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:15:59",
-      "Total Offline Duration": "13:25:13"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290",
@@ -170,7 +170,7 @@
       "Name": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:43"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
@@ -194,7 +194,7 @@
       "Name": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:15:59",
-      "Total Offline Duration": "13:25:13"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290",
@@ -253,7 +253,7 @@
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "AREA  PESAS",
@@ -323,7 +323,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 01",
@@ -350,15 +350,15 @@
       "Name": "Camera 01",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Offline",
-      "Latest Offline Time": "2026-06-11 06:59:49",
-      "Total Offline Duration": "11:31:32"
+      "Latest Offline Time": "2026-06-12 06:55:22",
+      "Total Offline Duration": "09:31:50"
     },
     {
       "Name": "Camera 02",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 02",
@@ -386,7 +386,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 03",
@@ -414,7 +414,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 04",
@@ -442,7 +442,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 05",
@@ -477,7 +477,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 06",
@@ -519,7 +519,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 07",
@@ -540,7 +540,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 08",
@@ -554,7 +554,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 09",
@@ -568,7 +568,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 10",
@@ -589,7 +589,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 12",
@@ -603,7 +603,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 13",
@@ -631,14 +631,14 @@
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:42"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 16",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Camera 16",
@@ -693,8 +693,8 @@
       "Name": "cardio",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Offline",
-      "Latest Offline Time": "2026-06-11 06:59:49",
-      "Total Offline Duration": "08:06:33"
+      "Latest Offline Time": "2026-06-12 06:55:22",
+      "Total Offline Duration": "07:22:17"
     },
     {
       "Name": "cardio",
@@ -708,14 +708,14 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "cardio 2",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "clase dirigida",
@@ -736,7 +736,7 @@
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:50",
-      "Total Offline Duration": "00:02:02"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "elipticas 2",
@@ -785,7 +785,7 @@
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "escalera -1",
@@ -799,7 +799,7 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "escaleras",
@@ -848,7 +848,7 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "funcional",
@@ -862,14 +862,14 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "gerencia",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Gerencia",
@@ -882,8 +882,8 @@
       "Name": "guarderia",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Offline",
-      "Latest Offline Time": "2026-06-11 06:59:49",
-      "Total Offline Duration": "08:17:57"
+      "Latest Offline Time": "2026-06-12 06:55:22",
+      "Total Offline Duration": "08:39:23"
     },
     {
       "Name": "guarderia",
@@ -895,9 +895,9 @@
     {
       "Name": "IPC",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Current Status": "Online",
-      "Latest Offline Time": "2026-06-11 06:56:53",
-      "Total Offline Duration": "11:17:18"
+      "Current Status": "Offline",
+      "Latest Offline Time": "2026-06-12 06:55:22",
+      "Total Offline Duration": "09:18:55"
     },
     {
       "Name": "mancuernas",
@@ -925,21 +925,21 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "mancuernas",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "maquina",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "maquina",
@@ -951,9 +951,9 @@
     {
       "Name": "maquina 2",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Current Status": "Online",
-      "Latest Offline Time": "2026-06-11 06:56:53",
-      "Total Offline Duration": "09:43:59"
+      "Current Status": "Offline",
+      "Latest Offline Time": "2026-06-12 06:55:22",
+      "Total Offline Duration": "09:51:11"
     },
     {
       "Name": "maquina 3",
@@ -967,7 +967,7 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "maquina2",
@@ -979,16 +979,16 @@
     {
       "Name": "maquinas",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Current Status": "Online",
-      "Latest Offline Time": "2026-06-11 06:56:53",
-      "Total Offline Duration": "09:29:18"
+      "Current Status": "Offline",
+      "Latest Offline Time": "2026-06-12 06:55:22",
+      "Total Offline Duration": "09:46:22"
     },
     {
       "Name": "maquinas",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:50",
-      "Total Offline Duration": "00:02:02"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "maquinas",
@@ -1002,98 +1002,98 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "maquinas 2",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "maquinas 2",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "maquinas 3",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "maquinas 4",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "maquinas 5",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "mauina 3",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-11 06:56:53",
-      "Total Offline Duration": "09:51:41"
+      "Latest Offline Time": "2026-06-12 06:40:04",
+      "Total Offline Duration": "09:52:47"
     },
     {
       "Name": "musculacion",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "musculacion 1",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:41"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Musculacion 2",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:41"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "musculacion 3",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:41"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "musculacion 4",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:42"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "muscular",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "oficina",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "oficina",
@@ -1105,16 +1105,16 @@
     {
       "Name": "oficina",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Current Status": "Online",
-      "Latest Offline Time": "2026-06-11 06:56:53",
-      "Total Offline Duration": "09:41:08"
+      "Current Status": "Offline",
+      "Latest Offline Time": "2026-06-12 06:55:22",
+      "Total Offline Duration": "07:20:13"
     },
     {
       "Name": "oficina",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:50",
-      "Total Offline Duration": "00:02:02"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "oficina",
@@ -1128,28 +1128,28 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "oficina",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "oficina",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:41"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "oficina 2",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "OFINCINA",
@@ -1163,7 +1163,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pasillo",
@@ -1184,7 +1184,7 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Pasillo",
@@ -1196,9 +1196,9 @@
     {
       "Name": "pasillo 1",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Current Status": "Offline",
-      "Latest Offline Time": "2026-06-11 06:56:52",
-      "Total Offline Duration": "09:31:17"
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-12 06:40:04",
+      "Total Offline Duration": "08:02:34"
     },
     {
       "Name": "pasillo -1",
@@ -1212,28 +1212,28 @@
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:42"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pasillo 2",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pasillo 2",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Current Status": "Offline",
-      "Latest Offline Time": "2026-06-11 06:56:53",
-      "Total Offline Duration": "08:02:55"
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-12 05:18:33",
+      "Total Offline Duration": "07:45:40"
     },
     {
       "Name": "pasillo camarin",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pasillo cocina",
@@ -1247,7 +1247,7 @@
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:41"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pasillo oficina",
@@ -1261,14 +1261,14 @@
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pasto negro",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:42"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pesas",
@@ -1289,7 +1289,7 @@
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pesas .2",
@@ -1303,7 +1303,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pesas 1",
@@ -1324,7 +1324,7 @@
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pesas 3",
@@ -1338,14 +1338,14 @@
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:50",
-      "Total Offline Duration": "00:02:02"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pesas.2",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:50",
-      "Total Offline Duration": "00:02:02"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Peso controlado",
@@ -1392,9 +1392,9 @@
     {
       "Name": "picsina",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Current Status": "Online",
-      "Latest Offline Time": "2026-06-11 06:56:53",
-      "Total Offline Duration": "09:56:47"
+      "Current Status": "Offline",
+      "Latest Offline Time": "2026-06-12 06:55:22",
+      "Total Offline Duration": "10:38:38"
     },
     {
       "Name": "picsina",
@@ -1408,7 +1408,7 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "pilates R",
@@ -1429,14 +1429,14 @@
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "recepcion",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "recepcion",
@@ -1448,9 +1448,9 @@
     {
       "Name": "recepcion",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Current Status": "Online",
-      "Latest Offline Time": "2026-06-11 06:56:53",
-      "Total Offline Duration": "07:45:02"
+      "Current Status": "Offline",
+      "Latest Offline Time": "2026-06-12 06:55:22",
+      "Total Offline Duration": "09:47:44"
     },
     {
       "Name": "recepcion",
@@ -1464,14 +1464,14 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "recepcion",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Recepcion",
@@ -1485,7 +1485,7 @@
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "recepcion  ventas",
@@ -1506,7 +1506,7 @@
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:42"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Recepcion 2",
@@ -1520,21 +1520,21 @@
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "recepcion.1",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:50",
-      "Total Offline Duration": "00:02:02"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "recepcion.2",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:50",
-      "Total Offline Duration": "00:02:02"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "RECEPION",
@@ -1555,56 +1555,56 @@
       "Area": "CA 0085 D1 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:51"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala 02",
       "Area": "CA 0085 D1 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:51"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala 03",
       "Area": "CA 0085 D1 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:51"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala 04",
       "Area": "CA 0085 D1 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:51"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala 05",
       "Area": "CA 0085 D1 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:51"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala 06",
       "Area": "CA 0085 D1 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:51"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala 07",
       "Area": "CA 0085 D1 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:51"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala 08",
       "Area": "CA 0085 D1 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:51"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala 09",
@@ -1625,7 +1625,7 @@
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala 10",
@@ -1716,7 +1716,7 @@
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala baile",
@@ -1730,7 +1730,7 @@
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:22:06",
-      "Total Offline Duration": "00:01:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala de bicicletas",
@@ -1765,7 +1765,7 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala de spinning",
@@ -1779,21 +1779,21 @@
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala de staff",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala elongacion",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala funcional",
@@ -1807,21 +1807,21 @@
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala funcional",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:42"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Sala Funcional",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:41"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Sala grupal 1",
@@ -1841,8 +1841,8 @@
       "Name": "sala multifuncional",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Offline",
-      "Latest Offline Time": "2026-06-11 06:56:53",
-      "Total Offline Duration": "10:46:10"
+      "Latest Offline Time": "2026-06-12 06:55:22",
+      "Total Offline Duration": "09:40:41"
     },
     {
       "Name": "sala multifuncional",
@@ -1856,35 +1856,35 @@
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala multiuso",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:50",
-      "Total Offline Duration": "00:02:02"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala zumba",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala zumba 2",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala2",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:49"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Sector Ti",
@@ -1898,21 +1898,21 @@
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "spining",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:50",
-      "Total Offline Duration": "00:02:02"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "spinning",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Current Status": "Online",
-      "Latest Offline Time": "2026-06-11 06:56:53",
-      "Total Offline Duration": "09:54:28"
+      "Current Status": "Offline",
+      "Latest Offline Time": "2026-06-12 06:55:22",
+      "Total Offline Duration": "08:42:49"
     },
     {
       "Name": "spinning",
@@ -1926,7 +1926,7 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "SPINNING",
@@ -1952,16 +1952,16 @@
     {
       "Name": "torniquete",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Current Status": "Offline",
-      "Latest Offline Time": "2026-06-11 06:56:53",
-      "Total Offline Duration": "07:43:16"
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-12 06:40:04",
+      "Total Offline Duration": "08:39:18"
     },
     {
       "Name": "torniquetes",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-04 14:13:02",
-      "Total Offline Duration": "13:31:12"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "torniquetes",
@@ -1975,14 +1975,14 @@
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "trotadora",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "trotadora .2",
@@ -1996,7 +1996,7 @@
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:58",
-      "Total Offline Duration": "00:02:52"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "trotadoras",
@@ -2010,7 +2010,7 @@
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:50",
-      "Total Offline Duration": "00:02:02"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "trotadoras",
@@ -2024,7 +2024,7 @@
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:41"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "trotadoras 2",
@@ -2038,7 +2038,7 @@
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:42"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "ventas",
@@ -2052,21 +2052,21 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:11"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "ventas",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:23:59",
-      "Total Offline Duration": "00:02:50"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "ventas",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:15",
-      "Total Offline Duration": "00:02:42"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "Zona cardio",
@@ -2101,21 +2101,21 @@
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-10 10:21:43",
-      "Total Offline Duration": "00:02:12"
+      "Total Offline Duration": "00:00:00"
     }
   ],
   "resource_recording_log": [
     {
       "Name": "guarderia",
       "Area": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA (FU4699445)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "3ER NIVEL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "acceso camarin hombres",
@@ -2126,26 +2126,26 @@
     {
       "Name": "AREA  PESAS",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "AREA DE TROTADORA",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "AREA MANCUERNAS",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "AREA MULTIFUNCIONAL PB",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "AREA PB",
@@ -2162,14 +2162,14 @@
     {
       "Name": "AREA PB 03",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "barras",
       "Area": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA (FU4699445)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "bicicletero",
@@ -2180,8 +2180,8 @@
     {
       "Name": "Camera 01",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 01",
@@ -2198,20 +2198,20 @@
     {
       "Name": "Camera 01",
       "Area": "CA 0195 D1 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535(FU4699453)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 01",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "Camera 02",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 02",
@@ -2228,14 +2228,14 @@
     {
       "Name": "Camera 02",
       "Area": "CA 0195 D1 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535(FU4699453)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 03",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 03",
@@ -2252,14 +2252,14 @@
     {
       "Name": "Camera 03",
       "Area": "CA 0195 D1 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535(FU4699453)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 04",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 04",
@@ -2276,32 +2276,32 @@
     {
       "Name": "Camera 04",
       "Area": "CA 0195 D1 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535(FU4699453)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
-    },
-    {
-      "Name": "Camera 05",
-      "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
-    },
-    {
-      "Name": "Camera 05",
-      "Area": "CA 0215 SPORTLIFE VIÑA DEL MAR (K68118504)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
-    },
-    {
-      "Name": "Camera 05",
-      "Area": "CA 0091-2 SPORTLIFE LOS TRAPENSES - LO BARNECHEA(FW6408902)",
       "Storage Type": "Normal",
       "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 05",
-      "Area": "CA 0195 D1 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535(FU4699453)",
+      "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
+    },
+    {
+      "Name": "Camera 05",
+      "Area": "CA 0215 SPORTLIFE VIÑA DEL MAR (K68118504)",
       "Storage Type": "En falla",
       "Recording Status": "Sin datos"
+    },
+    {
+      "Name": "Camera 05",
+      "Area": "CA 0091-2 SPORTLIFE LOS TRAPENSES - LO BARNECHEA(FW6408902)",
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
+    },
+    {
+      "Name": "Camera 05",
+      "Area": "CA 0195 D1 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535(FU4699453)",
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 05",
@@ -2312,8 +2312,8 @@
     {
       "Name": "Camera 06",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 06",
@@ -2324,32 +2324,32 @@
     {
       "Name": "Camera 06",
       "Area": "CA 0091-2 SPORTLIFE LOS TRAPENSES - LO BARNECHEA(FW6408902)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
-    },
-    {
-      "Name": "Camera 06",
-      "Area": "CA 0195 D1 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535(FU4699453)",
       "Storage Type": "En falla",
       "Recording Status": "Sin datos"
     },
     {
       "Name": "Camera 06",
-      "Area": "CA 0195 D2 SPORTLIFE GIMNASIO VALPARAISO - BRASIL 1535",
+      "Area": "CA 0195 D1 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535(FU4699453)",
       "Storage Type": "Normal",
       "Recording Status": "100% Operativo"
+    },
+    {
+      "Name": "Camera 06",
+      "Area": "CA 0195 D2 SPORTLIFE GIMNASIO VALPARAISO - BRASIL 1535",
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "Camera 06",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 07",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 07",
@@ -2360,14 +2360,14 @@
     {
       "Name": "Camera 07",
       "Area": "CA 0195 D2 SPORTLIFE GIMNASIO VALPARAISO - BRASIL 1535",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "Camera 08",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 08",
@@ -2378,8 +2378,8 @@
     {
       "Name": "Camera 09",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 09",
@@ -2390,8 +2390,8 @@
     {
       "Name": "Camera 10",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 10",
@@ -2402,8 +2402,8 @@
     {
       "Name": "Camera 11",
       "Area": "CA 0215 SPORTLIFE VIÑA DEL MAR (K68118504)",
-      "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "Camera 12",
@@ -2414,8 +2414,8 @@
     {
       "Name": "Camera 12",
       "Area": "CA 0215 SPORTLIFE VIÑA DEL MAR (K68118504)",
-      "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "Camera 13",
@@ -2427,37 +2427,37 @@
       "Name": "Camera 13",
       "Area": "CA 0215 SPORTLIFE VIÑA DEL MAR (K68118504)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 14",
       "Area": "CA 0215 SPORTLIFE VIÑA DEL MAR (K68118504)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 15",
       "Area": "CA 0215 SPORTLIFE VIÑA DEL MAR (K68118504)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 15",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 16",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "Camera 16",
       "Area": "CA 0215 SPORTLIFE VIÑA DEL MAR (K68118504)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 16",
@@ -2468,14 +2468,14 @@
     {
       "Name": "Camera 21",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 23",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "Camera 24",
@@ -2498,32 +2498,32 @@
     {
       "Name": "cardio",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "cardio",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "cardio",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "cardio 2",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "clase dirigida",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "eliptica",
@@ -2534,38 +2534,38 @@
     {
       "Name": "elipticas",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "elipticas 2",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "entrada",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "entrada maquina",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "ENTRADA PRINCIPAL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "ESCALA 2 a 3 NIVEL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "ESCALA PB",
@@ -2576,14 +2576,14 @@
     {
       "Name": "escalera",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "escalera -1",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "escalera de ingreso",
@@ -2594,32 +2594,32 @@
     {
       "Name": "escaleras",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "escaleras",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
+    },
+    {
+      "Name": "estacionamiento 1",
+      "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
       "Storage Type": "En falla",
       "Recording Status": "Sin datos"
     },
     {
-      "Name": "estacionamiento 1",
+      "Name": "estacionamiento 2",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
       "Storage Type": "Normal",
       "Recording Status": "100% Operativo"
     },
     {
-      "Name": "estacionamiento 2",
-      "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
-    },
-    {
       "Name": "estacionamiento 3",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "estiramiento",
@@ -2630,8 +2630,8 @@
     {
       "Name": "estiramiento",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "funcional",
@@ -2648,8 +2648,8 @@
     {
       "Name": "gerencia",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Gerencia",
@@ -2666,8 +2666,8 @@
     {
       "Name": "guarderia",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "IPC",
@@ -2678,38 +2678,38 @@
     {
       "Name": "mancuernas",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "mancuernas",
       "Area": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA (FU4699445)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "mancuernas",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "mancuernas",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "mancuernas",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "maquina",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "maquina",
@@ -2726,20 +2726,20 @@
     {
       "Name": "maquina 3",
       "Area": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA (FU4699445)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "maquina 3",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "maquina2",
       "Area": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA (FU4699445)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "maquinas",
@@ -2750,14 +2750,14 @@
     {
       "Name": "maquinas",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "maquinas",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "maquinas 1",
@@ -2769,31 +2769,31 @@
       "Name": "maquinas 2",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "maquinas 2",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "maquinas 3",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "maquinas 4",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "maquinas 5",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "mauina 3",
@@ -2811,13 +2811,13 @@
       "Name": "musculacion 1",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Musculacion 2",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "musculacion 3",
@@ -2841,43 +2841,43 @@
       "Name": "oficina",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "oficina",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "oficina",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "oficina",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
-    },
-    {
-      "Name": "oficina",
-      "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
-    },
-    {
-      "Name": "oficina",
-      "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Storage Type": "Normal",
       "Recording Status": "100% Operativo"
     },
     {
       "Name": "oficina",
-      "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
+      "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
+    },
+    {
+      "Name": "oficina",
+      "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
       "Storage Type": "En falla",
       "Recording Status": "Sin datos"
+    },
+    {
+      "Name": "oficina",
+      "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "oficina",
@@ -2889,19 +2889,19 @@
       "Name": "oficina 2",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "OFINCINA",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pasillo",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "pasillo",
@@ -2912,86 +2912,86 @@
     {
       "Name": "pasillo",
       "Area": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA (FU4699445)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pasillo",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "Pasillo",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pasillo 1",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
+    },
+    {
+      "Name": "pasillo -1",
+      "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
       "Storage Type": "Normal",
       "Recording Status": "100% Operativo"
     },
     {
       "Name": "pasillo -1",
-      "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
-    },
-    {
-      "Name": "pasillo -1",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pasillo 2",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "pasillo 2",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
-    },
-    {
-      "Name": "pasillo camarin",
-      "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Storage Type": "En falla",
       "Recording Status": "Sin datos"
     },
     {
-      "Name": "pasillo cocina",
-      "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
+      "Name": "pasillo camarin",
+      "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Storage Type": "Normal",
       "Recording Status": "100% Operativo"
+    },
+    {
+      "Name": "pasillo cocina",
+      "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "pasillo escalera",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pasillo oficina",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pasillo recepcion",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pasto negro",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pesas",
@@ -3002,20 +3002,20 @@
     {
       "Name": "pesas",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
-    },
-    {
-      "Name": "pesas",
-      "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Storage Type": "En falla",
       "Recording Status": "Sin datos"
     },
     {
-      "Name": "pesas .2",
-      "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
+      "Name": "pesas",
+      "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
       "Storage Type": "Normal",
       "Recording Status": "100% Operativo"
+    },
+    {
+      "Name": "pesas .2",
+      "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "pesas 1",
@@ -3026,44 +3026,44 @@
     {
       "Name": "pesas 1",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pesas 2",
       "Area": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA (FU4699445)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pesas 2",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pesas 3",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pesas.1",
-      "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
-    },
-    {
-      "Name": "pesas.2",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "Normal",
       "Recording Status": "100% Operativo"
     },
     {
-      "Name": "Peso controlado",
-      "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
+      "Name": "pesas.2",
+      "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "En falla",
       "Recording Status": "Sin datos"
+    },
+    {
+      "Name": "Peso controlado",
+      "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Peso controlado 2",
@@ -3074,26 +3074,26 @@
     {
       "Name": "peso libre",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "peso libre 2",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "peso muerto",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "peso muerto 2",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "picsina",
@@ -3104,38 +3104,38 @@
     {
       "Name": "picsina",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "pilates",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "pilates R",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "polea 1",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "poleas",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "recepcion",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "0% En falla"
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "recepcion",
@@ -3152,26 +3152,26 @@
     {
       "Name": "recepcion",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "recepcion",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "recepcion",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "Recepcion",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Recepcion",
@@ -3188,8 +3188,8 @@
     {
       "Name": "RECEPCION 02",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Recepcion 1",
@@ -3206,26 +3206,26 @@
     {
       "Name": "recepcion ventas",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "recepcion.1",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "recepcion.2",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "RECEPION",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala .1",
@@ -3236,8 +3236,8 @@
     {
       "Name": "sala 01",
       "Area": "CA 0085 D1 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala 02",
@@ -3290,14 +3290,14 @@
     {
       "Name": "sala 1",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala 1",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala 10",
@@ -3326,14 +3326,14 @@
     {
       "Name": "sala 14",
       "Area": "CA 0085 D2 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala 15",
       "Area": "CA 0085 D2 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala 16",
@@ -3362,8 +3362,8 @@
     {
       "Name": "sala 2",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "sala 20",
@@ -3380,44 +3380,44 @@
     {
       "Name": "sala baile",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "SALA DE BICI",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala de bicicletas",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "sala de bombas",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala de descanzo",
       "Area": "CA 0195 D2 SPORTLIFE GIMNASIO VALPARAISO - BRASIL 1535",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala de elongacion",
       "Area": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA (FU4699445)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "sala de spinning",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "sala de spinning",
@@ -3441,13 +3441,13 @@
       "Name": "sala elongacion",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "sala funcional",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "sala funcional",
@@ -3458,14 +3458,14 @@
     {
       "Name": "sala funcional",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Sala Funcional",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Sala grupal 1",
@@ -3476,8 +3476,8 @@
     {
       "Name": "sala multifuncional",
       "Area": "CA 0195 D2 SPORTLIFE GIMNASIO VALPARAISO - BRASIL 1535",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala multifuncional",
@@ -3488,38 +3488,38 @@
     {
       "Name": "sala multifuncional",
       "Area": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA (FU4699445)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala multiuso",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Recording Status": "0% En falla"
     },
     {
       "Name": "sala multiuso",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "sala zumba",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala zumba 2",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala2",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Sector Ti",
@@ -3530,14 +3530,14 @@
     {
       "Name": "servidores",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "spining",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "spinning",
@@ -3548,20 +3548,20 @@
     {
       "Name": "spinning",
       "Area": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA (FU4699445)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "spinning",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "SPINNING",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Terraza 1",
@@ -3578,8 +3578,8 @@
     {
       "Name": "torniquete",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "torniquetes",
@@ -3590,8 +3590,8 @@
     {
       "Name": "torniquetes",
       "Area": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "torniquetes",
@@ -3602,8 +3602,8 @@
     {
       "Name": "trotadora",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "trotadora .2",
@@ -3614,8 +3614,8 @@
     {
       "Name": "trotadora spinning",
       "Area": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290 (FU4699442)",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "trotadoras",
@@ -3626,8 +3626,8 @@
     {
       "Name": "trotadoras",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "trotadoras",
@@ -3639,37 +3639,37 @@
       "Name": "trotadoras 1",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "trotadoras 2",
       "Area": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "trotadoras 2",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "ventas",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "ventas",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "ventas",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "ventas",
@@ -3686,8 +3686,8 @@
     {
       "Name": "Zona funcional",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Zona funcional 2",
@@ -3704,8 +3704,8 @@
     {
       "Name": "zumba",
       "Area": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO - LAS CONDES",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     }
   ]
 }
