@@ -1,8 +1,238 @@
 {
   "cliente": "GIMNASIOS SPORTLIFE",
-  "ultima_actualizacion": "23-06-2026, 07:30:15 a. m.",
-  "registros": [],
-  "device_online_offline_log": [],
+  "ultima_actualizacion": "23-06-2026, 08:13:35 a. m.",
+  "registros": [
+    {
+      "Name": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-26 12:06:27",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-04-06 14:49:58",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-02-22 09:16:19",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0085-2 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-27 21:28:05",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0085-1 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-27 21:31:07",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-02-11 00:44:15",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0090 SPORTLIFE PIE ANDINO 4850 LO BARNECHEA",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-16 19:42:42",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-13 07:41:09",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-10 10:21:15",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-13 10:20:59",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0195 D2 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-16 01:41:32",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-04-30 10:11:26",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-04 14:15:59",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-18 00:28:37",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-27 09:05:20",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-15 22:13:16",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0215 SPORTLIFE VINA DEL MAR",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-26 13:06:32",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-15 01:58:56",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0091-2 SPORTLIFE LOS TRAPENSES - LO BARNECHEA",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-04-30 10:11:26",
+      "Total Offline Duration": "00:00:00"
+    }
+  ],
+  "device_online_offline_log": [
+    {
+      "Name": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-26 12:06:27",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-04-06 14:49:58",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-02-22 09:16:19",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0085-2 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-27 21:28:05",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0085-1 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-27 21:31:07",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0089 SPORTLIFE GIMNASIO SAN CARLOS APOQUINDO",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-02-11 00:44:15",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0090 SPORTLIFE PIE ANDINO 4850 LO BARNECHEA",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-16 19:42:42",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0092 SPORTLIFE PUENTE NUEVO - AV LAS CONDES 12916",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-13 07:41:09",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-10 10:21:15",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-13 10:20:59",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0195 D2 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-16 01:41:32",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-04-30 10:11:26",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-04 14:15:59",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0083 SPORTLIFE CHAMISERO - AV CHAMISERO 10290",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-18 00:28:37",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-27 09:05:20",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-06-15 22:13:16",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0215 SPORTLIFE VINA DEL MAR",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-26 13:06:32",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-05-15 01:58:56",
+      "Total Offline Duration": "00:00:00"
+    },
+    {
+      "Name": "CA 0091-2 SPORTLIFE LOS TRAPENSES - LO BARNECHEA",
+      "Current Status": "Online",
+      "Latest Offline Time": "2026-04-30 10:11:26",
+      "Total Offline Duration": "00:00:00"
+    }
+  ],
   "resource_online_offline_log": [
     {
       "Name": "guarderia",
@@ -120,7 +350,7 @@
       "Name": "Camera 01",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-18 09:56:16",
+      "Latest Offline Time": "2026-06-22 03:20:57",
       "Total Offline Duration": "00:00:00"
     },
     {
@@ -463,8 +693,8 @@
       "Name": "cardio",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-19 12:55:16",
-      "Total Offline Duration": "00:03:13"
+      "Latest Offline Time": "2026-06-22 03:14:54",
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "cardio",
@@ -750,8 +980,8 @@
       "Name": "maquinas",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-19 12:13:07",
-      "Total Offline Duration": "00:02:58"
+      "Latest Offline Time": "2026-06-20 16:46:19",
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "maquinas",
@@ -814,7 +1044,7 @@
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-19 12:55:16",
-      "Total Offline Duration": "00:03:13"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "musculacion",
@@ -876,8 +1106,8 @@
       "Name": "oficina",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-18 09:59:22",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-21 14:12:32",
+      "Total Offline Duration": "00:02:55"
     },
     {
       "Name": "oficina",
@@ -1612,7 +1842,7 @@
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-19 12:55:16",
-      "Total Offline Duration": "00:03:13"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala multifuncional",
@@ -1723,7 +1953,7 @@
       "Name": "torniquete",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-18 09:35:05",
+      "Latest Offline Time": "2026-06-20 16:46:19",
       "Total Offline Duration": "00:00:00"
     },
     {
@@ -2425,7 +2655,7 @@
       "Name": "Gerencia",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "guarderia",
@@ -2695,7 +2925,7 @@
       "Name": "Pasillo",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "pasillo 1",
@@ -2833,13 +3063,13 @@
       "Name": "Peso controlado",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "Peso controlado 2",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "peso libre",
@@ -2941,7 +3171,7 @@
       "Name": "Recepcion",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "Recepcion",
@@ -2971,7 +3201,7 @@
       "Name": "Recepcion 2",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "recepcion ventas",
@@ -3241,7 +3471,7 @@
       "Name": "Sala grupal 1",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "sala multifuncional",
@@ -3295,7 +3525,7 @@
       "Name": "Sector Ti",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "servidores",
@@ -3337,13 +3567,13 @@
       "Name": "Terraza 1",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "Terraza 2",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "torniquete",
@@ -3451,25 +3681,25 @@
       "Name": "Zona cardio",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "Zona funcional",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "Zona funcional 2",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "Zona spinnig",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "99% Operativo"
     },
     {
       "Name": "zumba",
