@@ -1,6 +1,6 @@
 {
   "cliente": "GIMNASIOS SPORTLIFE",
-  "ultima_actualizacion": "23-06-2026, 08:13:35 a. m.",
+  "ultima_actualizacion": "24-06-2026, 08:46:54 a. m.",
   "registros": [
     {
       "Name": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
@@ -107,8 +107,8 @@
     {
       "Name": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-15 01:58:56",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-23 10:12:36",
+      "Total Offline Duration": "05:35:33"
     },
     {
       "Name": "CA 0091-2 SPORTLIFE LOS TRAPENSES - LO BARNECHEA",
@@ -223,8 +223,8 @@
     {
       "Name": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-05-15 01:58:56",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-23 10:12:36",
+      "Total Offline Duration": "05:35:33"
     },
     {
       "Name": "CA 0091-2 SPORTLIFE LOS TRAPENSES - LO BARNECHEA",
@@ -351,7 +351,7 @@
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-22 03:20:57",
-      "Total Offline Duration": "00:00:00"
+      "Total Offline Duration": "00:03:00"
     },
     {
       "Name": "Camera 02",
@@ -693,8 +693,8 @@
       "Name": "cardio",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-22 03:14:54",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-06-23 03:43:03",
+      "Total Offline Duration": "00:03:00"
     },
     {
       "Name": "cardio",
@@ -952,7 +952,7 @@
       "Name": "maquina 2",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-18 09:53:23",
+      "Latest Offline Time": "2026-06-23 00:41:57",
       "Total Offline Duration": "00:00:00"
     },
     {
@@ -1107,7 +1107,7 @@
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-06-21 14:12:32",
-      "Total Offline Duration": "00:02:55"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "oficina",
@@ -1911,7 +1911,7 @@
       "Name": "spinning",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-18 09:59:22",
+      "Latest Offline Time": "2026-06-23 03:06:55",
       "Total Offline Duration": "00:00:00"
     },
     {
@@ -2523,13 +2523,13 @@
       "Name": "clase dirigida",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "eliptica",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "elipticas",
@@ -2541,7 +2541,7 @@
       "Name": "elipticas 2",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "entrada",
@@ -2595,7 +2595,7 @@
       "Name": "escaleras",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "escaleras",
@@ -2625,7 +2625,7 @@
       "Name": "estiramiento",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "estiramiento",
@@ -2637,7 +2637,7 @@
       "Name": "funcional",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "funcional",
@@ -2655,7 +2655,7 @@
       "Name": "Gerencia",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "guarderia",
@@ -2679,7 +2679,7 @@
       "Name": "mancuernas",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "mancuernas",
@@ -2847,7 +2847,7 @@
       "Name": "oficina",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "oficina",
@@ -2925,7 +2925,7 @@
       "Name": "Pasillo",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pasillo 1",
@@ -3063,25 +3063,25 @@
       "Name": "Peso controlado",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Peso controlado 2",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "peso libre",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "peso libre 2",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "peso muerto",
@@ -3117,13 +3117,13 @@
       "Name": "pilates R",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "polea 1",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "poleas",
@@ -3141,7 +3141,7 @@
       "Name": "recepcion",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "recepcion",
@@ -3171,7 +3171,7 @@
       "Name": "Recepcion",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Recepcion",
@@ -3201,7 +3201,7 @@
       "Name": "Recepcion 2",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "recepcion ventas",
@@ -3423,7 +3423,7 @@
       "Name": "sala de spinning",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "sala de spinning",
@@ -3471,7 +3471,7 @@
       "Name": "Sala grupal 1",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala multifuncional",
@@ -3525,7 +3525,7 @@
       "Name": "Sector Ti",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "servidores",
@@ -3567,13 +3567,13 @@
       "Name": "Terraza 1",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Terraza 2",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "torniquete",
@@ -3621,7 +3621,7 @@
       "Name": "trotadoras",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "trotadoras",
@@ -3650,14 +3650,14 @@
     {
       "Name": "trotadoras 2",
       "Area": "CA 0093 SPORTLIFE PURISIMA - ANTONIA LOPEZ BELLO 100",
-      "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Storage Type": "En falla",
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "ventas",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "100% Operativo"
+      "Recording Status": "76% Operativo"
     },
     {
       "Name": "ventas",
@@ -3681,25 +3681,25 @@
       "Name": "Zona cardio",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Zona funcional",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Zona funcional 2",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Zona spinnig",
       "Area": "CA 0094 SPORTLIFE VITACURA - AV VITACURA 2640",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "zumba",
