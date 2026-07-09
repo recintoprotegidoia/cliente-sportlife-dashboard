@@ -1,6 +1,6 @@
 {
   "cliente": "GIMNASIOS SPORTLIFE",
-  "ultima_actualizacion": "08-07-2026, 08:04:00 a. m.",
+  "ultima_actualizacion": "09-07-2026, 07:30:13 a. m.",
   "registros": [],
   "device_online_offline_log": [],
   "resource_online_offline_log": [
@@ -92,8 +92,8 @@
       "Name": "Camera 01",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 01",
@@ -127,8 +127,8 @@
       "Name": "Camera 02",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 02",
@@ -155,8 +155,8 @@
       "Name": "Camera 03",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 03",
@@ -183,8 +183,8 @@
       "Name": "Camera 04",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 04",
@@ -211,8 +211,8 @@
       "Name": "Camera 05",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 05",
@@ -246,8 +246,8 @@
       "Name": "Camera 06",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 06",
@@ -288,8 +288,8 @@
       "Name": "Camera 07",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 07",
@@ -309,8 +309,8 @@
       "Name": "Camera 08",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 08",
@@ -323,8 +323,8 @@
       "Name": "Camera 09",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 09",
@@ -337,8 +337,8 @@
       "Name": "Camera 10",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 10",
@@ -358,8 +358,8 @@
       "Name": "Camera 12",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 12",
@@ -372,8 +372,8 @@
       "Name": "Camera 13",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "Camera 13",
@@ -877,7 +877,7 @@
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-05 16:29:18",
-      "Total Offline Duration": "00:02:59"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "oficina",
@@ -1163,8 +1163,8 @@
       "Name": "picsina",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-18 09:53:23",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 12:52:52",
+      "Total Offline Duration": "00:03:14"
     },
     {
       "Name": "picsina",
@@ -1499,8 +1499,8 @@
       "Name": "SALA DE BICI",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-16 19:45:21",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-07 04:07:22",
+      "Total Offline Duration": "00:05:55"
     },
     {
       "Name": "sala de bicicletas",
