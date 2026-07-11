@@ -1,6 +1,6 @@
 {
   "cliente": "GIMNASIOS SPORTLIFE",
-  "ultima_actualizacion": "10-07-2026, 06:34:38 p. m.",
+  "ultima_actualizacion": "11-07-2026, 02:14:24 p. m.",
   "registros": [],
   "device_online_offline_log": [],
   "resource_online_offline_log": [
@@ -15,8 +15,8 @@
       "Name": "3ER NIVEL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "acceso camarin hombres",
@@ -29,50 +29,50 @@
       "Name": "AREA  PESAS",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "AREA DE TROTADORA",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "AREA MANCUERNAS",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "AREA MULTIFUNCIONAL PB",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "AREA PB",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "AREA PB 02",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "AREA PB 03",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "barras",
@@ -421,8 +421,8 @@
       "Name": "Camera 16",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "Camera 21",
@@ -492,14 +492,14 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "eliptica",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "elipticas",
@@ -513,7 +513,7 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "entrada",
@@ -533,22 +533,22 @@
       "Name": "ENTRADA PRINCIPAL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "ESCALA 2 a 3 NIVEL",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "ESCALA PB",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "escalera",
@@ -576,7 +576,7 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "escaleras",
@@ -611,7 +611,7 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:36"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "estiramiento",
@@ -625,7 +625,7 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "funcional",
@@ -674,7 +674,7 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "mancuernas",
@@ -870,7 +870,7 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "oficina",
@@ -925,8 +925,8 @@
       "Name": "OFINCINA",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "pasillo",
@@ -1136,14 +1136,14 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "peso libre 2",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:36"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "peso muerto",
@@ -1164,7 +1164,7 @@
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 16:28:34",
-      "Total Offline Duration": "00:02:44"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "picsina",
@@ -1185,14 +1185,14 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "polea 1",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "poleas",
@@ -1213,7 +1213,7 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "recepcion",
@@ -1268,8 +1268,8 @@
       "Name": "RECEPCION 02",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "Recepcion 1",
@@ -1310,8 +1310,8 @@
       "Name": "RECEPION",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "sala .1",
@@ -1542,7 +1542,7 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:36"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "sala de spinning",
@@ -1681,7 +1681,7 @@
       "Name": "spinning",
       "Area": "CA 0090 SPORTLIFE PIE ANDINO 4850 - LO BARNECHEA",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-07-02 12:44:25",
+      "Latest Offline Time": "2026-07-11 01:35:48",
       "Total Offline Duration": "00:00:00"
     },
     {
@@ -1702,8 +1702,8 @@
       "Name": "SPINNING",
       "Area": "CA 0096 SPORTLIFE MALL EDUARDO FREI - PUNTA ARENAS (FD7918414)",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-06-26 08:59:40",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-10 08:43:34",
+      "Total Offline Duration": "00:30:18"
     },
     {
       "Name": "Terraza 1",
@@ -1773,7 +1773,7 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "trotadoras",
@@ -1815,7 +1815,7 @@
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-09 17:25:46",
-      "Total Offline Duration": "10:49:37"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "ventas",
@@ -1951,7 +1951,7 @@
       "Name": "Camera 01",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 01",
@@ -1981,7 +1981,7 @@
       "Name": "Camera 02",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 02",
@@ -2005,7 +2005,7 @@
       "Name": "Camera 03",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 03",
@@ -2029,7 +2029,7 @@
       "Name": "Camera 04",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 04",
@@ -2053,7 +2053,7 @@
       "Name": "Camera 05",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 05",
@@ -2083,7 +2083,7 @@
       "Name": "Camera 06",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 06",
@@ -2119,7 +2119,7 @@
       "Name": "Camera 07",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 07",
@@ -2137,7 +2137,7 @@
       "Name": "Camera 08",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 08",
@@ -2149,7 +2149,7 @@
       "Name": "Camera 09",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 09",
@@ -2161,7 +2161,7 @@
       "Name": "Camera 10",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Camera 10",
@@ -2293,25 +2293,25 @@
       "Name": "clase dirigida",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "eliptica",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "elipticas",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "elipticas 2",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "entrada",
@@ -2365,7 +2365,7 @@
       "Name": "escaleras",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "escaleras",
@@ -2395,7 +2395,7 @@
       "Name": "estiramiento",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "estiramiento",
@@ -2407,7 +2407,7 @@
       "Name": "funcional",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "funcional",
@@ -2449,7 +2449,7 @@
       "Name": "mancuernas",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "mancuernas",
@@ -2521,7 +2521,7 @@
       "Name": "maquinas",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "maquinas",
@@ -2617,7 +2617,7 @@
       "Name": "oficina",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "oficina",
@@ -2629,7 +2629,7 @@
       "Name": "oficina",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "oficina",
@@ -2821,13 +2821,13 @@
       "Name": "pesas.1",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "pesas.2",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "Peso controlado",
@@ -2845,13 +2845,13 @@
       "Name": "peso libre",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "peso libre 2",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "peso muerto",
@@ -2887,13 +2887,13 @@
       "Name": "pilates R",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "polea 1",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "poleas",
@@ -2905,13 +2905,13 @@
       "Name": "recepcion",
       "Area": "CA 0079 SPORTLIFE CONCON - 3400 REÑACA (FU4699459)",
       "Storage Type": "En falla",
-      "Recording Status": "0% En falla"
+      "Recording Status": "Sin datos"
     },
     {
       "Name": "recepcion",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "recepcion",
@@ -2976,20 +2976,20 @@
     {
       "Name": "recepcion ventas",
       "Area": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
-      "Storage Type": "En falla",
-      "Recording Status": "Sin datos"
+      "Storage Type": "Normal",
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "recepcion.1",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "recepcion.2",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "RECEPION",
@@ -3157,7 +3157,7 @@
       "Name": "SALA DE BICI",
       "Area": "CA 0095 SPORTLIFE BORIES - PUNTA ARENAS (FD7918435)",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala de bicicletas",
@@ -3193,7 +3193,7 @@
       "Name": "sala de spinning",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala de spinning",
@@ -3271,7 +3271,7 @@
       "Name": "sala multiuso",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "sala zumba",
@@ -3307,7 +3307,7 @@
       "Name": "spining",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "spinning",
@@ -3391,13 +3391,13 @@
       "Name": "trotadoras",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "trotadoras",
       "Area": "CA 0080 SPORTLIFE QUILICURA - AV OHIGGINS 584",
       "Storage Type": "Normal",
-      "Recording Status": "99% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "trotadoras",
@@ -3427,7 +3427,7 @@
       "Name": "ventas",
       "Area": "CA 0082 SPORTLIFE PIEDRA ROJA - AV CHICUREO 156 (FU4699454)",
       "Storage Type": "Normal",
-      "Recording Status": "54% Operativo"
+      "Recording Status": "100% Operativo"
     },
     {
       "Name": "ventas",
