@@ -1,6 +1,6 @@
 {
   "cliente": "GIMNASIOS SPORTLIFE",
-  "ultima_actualizacion": "22-07-2026, 08:04:44 a. m.",
+  "ultima_actualizacion": "23-07-2026, 08:50:44 a. m.",
   "registros": [
     {
       "Name": "CA 0078 SPORTLIFE MAIPU - AV PAJARITOS 4444",
@@ -17,8 +17,8 @@
     {
       "Name": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-02-22 09:16:19",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-22 13:38:29",
+      "Total Offline Duration": "00:00:06"
     },
     {
       "Name": "CA 0085-2 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
@@ -66,7 +66,7 @@
       "Name": "CA 0195 D2 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-21 01:29:52",
-      "Total Offline Duration": "04:47:21"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA",
@@ -133,8 +133,8 @@
     {
       "Name": "CA 0084 SPORTLIFE ÑUÑOA - SIMON BOLIVAR 4509",
       "Current Status": "Online",
-      "Latest Offline Time": "2026-02-22 09:16:19",
-      "Total Offline Duration": "00:00:00"
+      "Latest Offline Time": "2026-07-22 13:38:29",
+      "Total Offline Duration": "00:00:06"
     },
     {
       "Name": "CA 0085-2 SPORTLIFE PEÑALOLEN - AV CONSISTORIAL 2100",
@@ -182,7 +182,7 @@
       "Name": "CA 0195 D2 SPORTLIFE GIMNASIO VALPARAISO -BRASIL 1535",
       "Current Status": "Online",
       "Latest Offline Time": "2026-07-21 01:29:52",
-      "Total Offline Duration": "04:47:21"
+      "Total Offline Duration": "00:00:00"
     },
     {
       "Name": "CA 0091 SPORTLIFE LOS TRAPENSES - LO BARNECHEA",
